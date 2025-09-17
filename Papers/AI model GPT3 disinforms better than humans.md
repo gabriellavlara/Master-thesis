@@ -1,5 +1,6 @@
 #paper #disinformation #synthetic #organic #humanxLLM
 
+*link*: 
 GPT-3 serves as a lever, amplifying human intentions
 
 - ongoing infodemic ([_13_](https://www.science.org/doi/10.1126/sciadv.adh1850?adobe_mc=MCMID%3D13001783662484921943263324494838777021%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1687852330#core-collateral-R13)), an epidemic-like circulation of fake news and disinformation, which, alongside the coronavirus disease 2019 (COVID-19) pandemic, has been greatly detrimental for global health
