@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"becb91e6efc7e273","type":"text","text":"","x":-479,"y":-191,"width":250,"height":60},
+		{"id":"009781f4b3054421","type":"text","text":"**Data curation**\n","x":-280,"y":-40,"width":250,"height":60,"color":"2"},
+		{"id":"28c3568c4e66d8f8","type":"file","file":"Experiments/Data curation.md","x":-280,"y":40,"width":400,"height":400,"color":"2"},
+		{"id":"18ca4d7ed1f2557f","type":"text","text":"**LLM generation of fakes**","x":200,"y":-40,"width":250,"height":60,"color":"3"},
+		{"id":"e4be5bb1502af2e5","x":200,"y":40,"width":400,"height":400,"color":"3","type":"file","file":"Experiments/LLM generation of fakes.md"}
+	],
+	"edges":[
+		{"id":"e2e8298b56534eae","fromNode":"009781f4b3054421","fromSide":"right","toNode":"18ca4d7ed1f2557f","toSide":"left"}
+	]
+}
