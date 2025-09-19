@@ -35,4 +35,6 @@ GPT-3 serves as a lever, amplifying human intentions
     - less likely to generate misinfo on certain topics like *vaccines and autism*
 	    - \# training data debunking conspiracy theories > \# conspiracy theories
 
-![[Pasted image 20250916161409.png]]
+![[gpt-disinforms-pipeline.png]]
+
+![[gpt_disinforms.pdf]]

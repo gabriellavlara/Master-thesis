@@ -25,4 +25,4 @@
 	- real-world scenarios demand multi-label classification: propaganda, click-bait, satire, conspiracy
 	- 
 	
-![[Pasted image 20250916164826.png]]
+![[megafake-pipeline.png]]![[MegaFake.pdf]]

@@ -10,3 +10,5 @@
 - Encoder only finetuned BERT-based models have lower computational costs
 ### **Methodology**: 
 - Compare encoder-only BERT X decoder-only zero-shot LLMs
+
+![[comparing_LLMs_BERT.pdf]]
