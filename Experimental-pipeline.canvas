@@ -1,14 +1,17 @@
 {
 	"nodes":[
-		{"id":"becb91e6efc7e273","type":"text","text":"","x":-479,"y":-191,"width":250,"height":60},
 		{"id":"009781f4b3054421","type":"text","text":"**Data curation**\n","x":-280,"y":-40,"width":250,"height":60,"color":"2"},
 		{"id":"18ca4d7ed1f2557f","type":"text","text":"**LLM generation of fakes**","x":200,"y":-40,"width":250,"height":60,"color":"3"},
-		{"id":"e4be5bb1502af2e5","type":"file","file":"Experiments/LLM generation of fakes.md","x":200,"y":80,"width":400,"height":400,"color":"3"},
-		{"id":"28c3568c4e66d8f8","type":"file","file":"Experiments/Data curation.md","x":-280,"y":80,"width":400,"height":400,"color":"2"},
-		{"id":"b407aec660c63bb3","x":700,"y":-40,"width":250,"height":60,"color":"5","type":"text","text":"Comparison between synthetic and organic fakes"}
+		{"id":"28c3568c4e66d8f8","type":"file","file":"Experiments/Data curation.md","x":-280,"y":80,"width":400,"height":860,"color":"2"},
+		{"id":"3f431957afb3a92d","type":"file","file":"Experiments/LLM generation of fakes.md","x":140,"y":80,"width":440,"height":780,"color":"3"},
+		{"id":"b407aec660c63bb3","type":"text","text":"**Compare synthetic vs. organic fakes**","x":640,"y":-40,"width":250,"height":60,"color":"4"},
+		{"id":"66b484ec2b7eebdd","type":"file","file":"Experiments/Compare between synthetic vs. organic fakes.md","x":640,"y":80,"width":400,"height":780,"color":"4"},
+		{"id":"8ecd015d5c75ebb1","x":1080,"y":-40,"width":250,"height":60,"color":"5","type":"text","text":"**Evaluate**"},
+		{"id":"36f5e95c63611ecd","x":1080,"y":80,"width":400,"height":400,"color":"5","type":"file","file":"Experiments/Evaluation.md"}
 	],
 	"edges":[
 		{"id":"e2e8298b56534eae","fromNode":"009781f4b3054421","fromSide":"right","toNode":"18ca4d7ed1f2557f","toSide":"left"},
-		{"id":"e00c39d8f8bb76d6","fromNode":"18ca4d7ed1f2557f","fromSide":"right","toNode":"b407aec660c63bb3","toSide":"left"}
+		{"id":"e00c39d8f8bb76d6","fromNode":"18ca4d7ed1f2557f","fromSide":"right","toNode":"b407aec660c63bb3","toSide":"left"},
+		{"id":"7e3dc82f77e72974","fromNode":"b407aec660c63bb3","fromSide":"right","toNode":"8ecd015d5c75ebb1","toSide":"left"}
 	]
 }

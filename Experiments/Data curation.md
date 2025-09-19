@@ -1,12 +1,22 @@
--  Collect real news articles of recent events **R**
-	- Choose a minimum event date - so it has to have happened AFTER a certain date, so that the language models were not trained on this dataset
-- Collect human-authored fake news **H**
-	- Filter specific things -> f.e. filter for Tweets with a length of $$
-|H| \in [h_{min}, h_{max}]
+1. Collect a series of real news articles of recent events **R**$$
+ R=\{{R_{1}, R_{2}, \dots, R_{n}}\}
+$$ collected in a time window $$
+ [T_{{min}}, T_{max}]
+$$ that is *post-training* for all LLMs that will be benchmarked.
+Each entry being $$
+r_{i} = (id, times tamp, source, title, body, \dots)
 $$
-- Pair R and H
-	- f.e. for each news event R, there should be N distorted news $$
-H_{0}, \dots, H_{n}
-$$
-	- all news articles and posts must be written in English
-	- Possible topics: 
+
+2. For each entry in R, collect a set $$H = \{h_{i_{1}}, \dots, h_{ik}\}$$ of human-authored fake news about the same real-world event. 
+Posts must follow the criteria (t.b.d):
+	- written in English
+	- posted on Twitter/Threads 
+	- within a defined character-length range
+	- ?
+They must be pre-filtered for the following aspects:
+	- no Emojis
+	- removal of external URLs
+	- lowercase only
+
+#### **Goal:** build pairs $$(r_{i}, H_{i})
+$$ of real news events and their corresponding fake news posts.

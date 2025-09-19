@@ -1,1 +1,0 @@
-Given a news article R, 
