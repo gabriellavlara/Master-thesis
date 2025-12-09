@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"430b282498974a63","x":-400,"y":-220,"width":740,"height":460,"type":"text","text":"\n\n```dirtree\n- /data\n    - sample.json #small curated dataset with (R,H) pairs\n    - synthetic_fakes.json #generated S with (R, S) pairs\n\t- README\n- /src\n    - generate_proxies.py #create synthetic fakes \n    - semantic_space.py #embeddings + eventually UMAP\n\t- evaluation.py #similarity metrics, precision@k, recall@k\n\t- utils.py\n- /notebooks\n\t- test_run.ipynb\n- /scripts\n\t- main.py\n- /results\n\t- logs\n\t- retrievals.csv\n- /requirements.txt\n- /README.md\n  \n```\n"}
+	],
+	"edges":[]
+}
