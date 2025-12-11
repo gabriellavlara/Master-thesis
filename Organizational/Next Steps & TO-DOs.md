@@ -1,4 +1,6 @@
 # Next Steps (Breadcrumbs)
+### 15.12.25
+
 ### 05.12.25
 - Set up a config file with the API keys: ✅
 	- ChatGPT:
@@ -12,12 +14,12 @@
 		- Default_params:
 		- API_key: *** 
 		==*to find API_keys, access the .env file on the GitHub project*==
-- Write a function that runs prompt on LLM using API key 
+- Write a function that runs prompt on LLM using API key  ✅
 	- def call_model(model_id, system_prompt, user_prompt, **params):
     1. Build the messages list.
     2. Call the API.
     3. Return both raw response + extracted text + metadata.
-- Define DF structure for logging generated tweet. It should contain:
+- Define DF structure for logging generated tweet. It should contain: 
 	- tweetID
 	- eventID
 	- news_article-ID
