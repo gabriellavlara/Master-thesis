@@ -12,7 +12,7 @@
 		- Default_params:
 		- API_key: *** 
 		==*to find API_keys, access the .env file on the GitHub project*==
-- Write a function that runs prompt on LLM using API key
+- Write a function that runs prompt on LLM using API key 
 	- def call_model(model_id, system_prompt, user_prompt, **params):
     1. Build the messages list.
     2. Call the API.
