@@ -1,4 +1,9 @@
-## Base test
+# Goals:
+1. Does the pipeline run end-to-end?
+2. Do prompts actually induce measurably false content? Are different prompt variants _meaningfully different_?
+3. Do embeddings distinguish article vs generated tweet in any signal at all?
+4. Do embeddings show false content (organic AND synthetic) closer to each other than real and fake?
+5. 
 ### Data curation
 Problems: 
 1. Veracity labels have no explanation -> it's not clear whether they are true/false, and on some occasions that i have manually looked for its truthfulness online, many of them were not true --> new LLMs might have information on that. 
