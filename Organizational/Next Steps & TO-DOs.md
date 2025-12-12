@@ -1,6 +1,19 @@
 # Next Steps (Breadcrumbs)
 ### 15.12.25
+1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient
+2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible.
+3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected
+4. Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?
 
+  
+
+# Goals:
+
+1. Does the pipeline run end-to-end?
+
+2. Do prompts actually induce measurably false content?
+
+3. Do embeddings distinguish article vs generated tweet in any signal at all?
 ### 05.12.25
 - Set up a config file with the API keys: ✅
 	- ChatGPT:
@@ -19,7 +32,7 @@
     1. Build the messages list.
     2. Call the API.
     3. Return both raw response + extracted text + metadata.
-- Define DF structure for logging generated tweet. It should contain: 
+- Define DF structure for logging generated tweet. It should contain: ✅
 	- tweetID
 	- eventID
 	- news_article-ID
