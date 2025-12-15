@@ -9,6 +9,8 @@
 Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeliness", correctness, naturalness, hallucination, "consistency" --> could do that by prompting another LLM to evaluate on those aspects. 
 
 Number of character diff, semantic similarity
+
+
   
 ### 05.12.25
 - Set up a config file with the API keys: ✅
