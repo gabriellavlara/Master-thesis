@@ -4,8 +4,9 @@
 2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible.
 3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected
 4. Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?
-- Idea:
-Evaluate different prompts given fluency, coherence, --> could do that by prompting another LLM to 
+
+- **Idea**:
+Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeline" --> could do that by prompting another LLM to evaluate on those aspects. 
   
 ### 05.12.25
 - Set up a config file with the API keys: ✅
