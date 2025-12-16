@@ -9,7 +9,7 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
-## 9.01.25
+## 9.01.26
 
 ## 15.12.25
 1. What kinds of metrics should i use to evaluate a generated response?
