@@ -9,7 +9,7 @@ $$
 
 2. For each entry in R, collect a set $$H = \{h_{i_{1}}, \dots, h_{ik}\}$$ of human-authored fake news about the same real-world event. 
 
- **Define a proxy for the ground truth**, since a human agent won´t annotate the true *(real-news, fake-claim)* pair. The proxy serves as an approximation / closest match to the real news that the person based the fake claim on. [[Questions]]
+ **Define a proxy for the ground truth**, since a human agent won´t annotate the true *(real-news, fake-claim)* pair. The proxy serves as an approximation / closest match to the real news that the person based the fake claim on. [[Questions & Meeting reports]]
 
 Posts must follow the criteria (t.b.d):
 	- written in English

@@ -1,15 +1,17 @@
 # Next Steps (Breadcrumbs)
+
 ### 15.12.25
 1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient
 2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible.
-3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected
+3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected --> or parquet files
 4. Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?
 
-- **Idea**:
+- **Ideas**:
 Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeliness", correctness, naturalness, hallucination, "consistency" --> could do that by prompting another LLM to evaluate on those aspects. 
 
 Number of character diff, semantic similarity
 
+Define "disinformation"-traits (f.e. numerical fabrication, change in associated people)
 
   
 ### 05.12.25
@@ -41,7 +43,7 @@ Number of character diff, semantic similarity
 	- generated_tweet
 	- time_to_generate
 	- timestamp
-	- cost_estimate
+	- cost_estimate (check out website and write function that calculates that given n input tokens, output tokens, )
 - Set up account on Azure Cloud or Google cloud (free TPU usage. Do i even need it?)
 - Mini-evaluation of instruction-tuned vs. base models:
 	- pick 10-15 generated examples by each and compare based on tweet likeness, factuality, creativity
