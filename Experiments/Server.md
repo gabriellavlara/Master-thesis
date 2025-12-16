@@ -1,4 +1,4 @@
-=== SERVER ACCESS ===
+## SERVER ACCESS 
 SSH_KEY_PATH=~/.ssh/id_ed25519
 JUMPHOST_HOST=jumphost.mtec.tu-berlin.de
 JUMPHOST_PORT=22
@@ -6,7 +6,7 @@ JUMPHOST_USER=gabriella
 TURBO_HOST=130.149.16.96
 TURBO_USER=gabriella
 
-=== SERVER METADATA ===
+## SERVER METADATA ==
 ### CPU & Memory
 
 | Resource | Total   | Used    | Free    | Available |
