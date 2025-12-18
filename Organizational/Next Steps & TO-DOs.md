@@ -1,18 +1,37 @@
 # Next Steps (Breadcrumbs)
 ### 9.01.26
-- Implement the embedding part
-- Evaluate first results of the generations
-	- Check what went right and wrong
-	- Evaluate based on metrics such as **human-likeness, level of fabrication**
-- Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
+- **Evaluate first results of the generations (sanity check)**
+1. Manual inspection:
+	Sample 15-20 instances and see if
+	- Is it clearly about the correct event?
+	- Does it _contain_ a false or misleading claim?
+	- Is the false claim:
+	(a) subtle / plausible
+    (b) obviously wrong / absurd
+	- Would a human plausibly post this on social media?
+	- Any catastrophic failures? (wrong event/wrong location/impossible facts)
+
+2. Automated control metrics
+	**Manual (0–2 each):**
+	- **Human-likeness** (reads like a real tweet?)
+	- **Event relevance** (clearly about the article/event?)
+	- **Fabrication quality** (plausible false claim vs random nonsense?)
+	- **Coherence/fluency** (grammar, clarity, no weird structure)
+	- **Constraint compliance** (includes at least one confident false claim?)
+	**Automatic:**
+	- **Length / character count** (<= 280)
+	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
+- ==**Implement embeddings step**
+
 - Start experimenting in the MTEC server. Access information can be found in .env file
+-  Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
 
 ### 15.12.25
 1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient ✅
 2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible. ✅
 3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected --> or parquet files ✅
 4. ==Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?== ✅
-5
+
 
 - **Ideas**:
 Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeliness", correctness, naturalness, hallucination, "consistency" --> could do that by prompting another LLM to evaluate on those aspects. 
