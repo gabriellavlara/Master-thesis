@@ -18,10 +18,11 @@
 	- **Fabrication quality** (plausible false claim vs random nonsense?)
 	- **Coherence/fluency** (grammar, clarity, no weird structure)
 	- **Constraint compliance** (includes at least one confident false claim?)
+	https://www.digitalocean.com/community/tutorials/automated-metrics-for-evaluating-generated-text
 	**Automatic:**
 	- **Length / character count** (<= 280)
 	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
-- ==**Implement embeddings step**
+- ==**Implement embeddings step**==
 
 - Start experimenting in the MTEC server. Access information can be found in .env file
 -  Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
