@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"430b282498974a63","type":"text","text":"\n\n```dirtree\n- /data\n\t  - /news-articles\n    - sample.json #small curated dataset with (R,H) pairs\n    - synthetic_fakes.json #generated S with (R, S) pairs\n\t- README\n- /src\n    - generate_proxies.py #create synthetic fakes \n    - semantic_space.py #embeddings + eventually UMAP\n\t- evaluation.py #similarity metrics, precision@k, recall@k\n\t- utils.py\n- /notebooks\n\t- test_run.ipynb\n- /scripts\n\t- generate.py # main generation logic\n\t- embed.py # main embedding logic\n- /results\n\t- logs\n\t- retrievals.csv\n- main.py # main, calls all functions on the scripts for a given event\n- /requirements.txt\n- /README.md\n  \n```\n","x":-400,"y":-220,"width":740,"height":460}
+		{"id":"430b282498974a63","type":"text","text":"\n\n```dirtree\n- /data\n    - sample.json #small curated dataset with (R,H) pairs\n    - synthetic_fakes.json #generated S with (R, S) pairs\n\t- README\n- /src\n    - generate_proxies.py #create synthetic fakes \n    - semantic_space.py #embeddings + eventually UMAP\n\t- evaluation.py #similarity metrics, precision@k, recall@k\n\t- utils.py\n- /notebooks\n\t- test_run.ipynb\n- /scripts\n\t- generate.py # main generation logic\n\t- embed.py # main embedding logic\n- /results\n\t- logs\n\t- retrievals.csv\n- main.py # main, calls all functions on the scripts for a given event\n- /requirements.txt\n- /README.md\n  \n```\n","x":-400,"y":-220,"width":740,"height":460}
 	],
 	"edges":[]
 }

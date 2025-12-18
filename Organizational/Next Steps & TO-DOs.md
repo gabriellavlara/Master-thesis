@@ -4,6 +4,7 @@
 - Evaluate first results of the generations
 	- Check what went right and wrong
 	- Evaluate based on metrics such as **human-likeness, level of fabrication**
+- Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
 - Start experimenting in the MTEC server. Access information can be found in .env file
 
 ### 15.12.25
