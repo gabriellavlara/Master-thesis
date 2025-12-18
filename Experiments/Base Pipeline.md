@@ -23,7 +23,8 @@ FOLLOW UP QUESTION: does it get MORE creative if i add more information to the p
 
 ### Data generation
 #### **Information**
-
+- Models: GPT-4o-mini and Deepseek-chat
+- 75 generated instances in generations.jsonl
 #### **Problems**
 1. Very slow generation. For one input, even when using mac's inbuilt GPUs, it takes around 5minutes for ONE response with Gemma2b and way longer with Qwen. That DOES NOT scale well. 
 2. Trade-off between **instruction-tuned** and **base** language model:
