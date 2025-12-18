@@ -3,7 +3,7 @@
 2. Do prompts actually induce measurably false content? Are different prompt variants _meaningfully different_?
 3. Do embeddings distinguish article vs generated tweet in any signal at all?
 4. Do embeddings show false content (organic AND synthetic) closer to each other than real and fake?
-5. 
+
 ### Data curation
 Problems: 
 1. Veracity labels have no explanation -> it's not clear whether they are true/false, and on some occasions that i have manually looked for its truthfulness online, many of them were not true --> new LLMs might have information on that. 
@@ -19,7 +19,8 @@ FOLLOW UP QUESTION: does it get MORE creative if i add more information to the p
 Data-backed up decisions as to why i would continue with IT models
 
 Proprietary models: start with GPT and DeepSeek. First start with something that works, 
-1. Run LLM locally or access through API?
+1. Run LLM locally or access through API? For now, am only testing with API access -> result tends to be much better
+   - for future, might want to test with fine tuned LMs for tweet generation.
 
 | Criterion                         | API LLM     | Local LLM        |
 | --------------------------------- | ----------- | ---------------- |
@@ -34,6 +35,10 @@ Proprietary models: start with GPT and DeepSeek. First start with something that
 | Good for misinformation research? | Not ideal   | Excellent        |
 | Testing prompting strategies?     | Excellent   | Not ideal        |
 
+### 
 
-
-
+# Problems & Improvements 
+- [ ] Write a "status update" functionality for my generation code 
+- [ ] Also add eventID to the generation json maybe? or not, just store it on different names
+- [ ] Restructure the folders to have one probably called scripts/generate.py
+- 
