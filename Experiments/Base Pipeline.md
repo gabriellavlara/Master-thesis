@@ -22,6 +22,9 @@
 FOLLOW UP QUESTION: does it get MORE creative if i add more information to the prompt? Or less?
 
 ### Data generation
+#### **Information**
+
+#### **Problems**
 1. Very slow generation. For one input, even when using mac's inbuilt GPUs, it takes around 5minutes for ONE response with Gemma2b and way longer with Qwen. That DOES NOT scale well. 
 2. Trade-off between **instruction-tuned** and **base** language model:
 - +: base model has no safety filters and has more space for creativity 
