@@ -5,6 +5,18 @@
 4. Do embeddings show false content (organic AND synthetic) closer to each other than real and fake?
 
 ### Data curation
+**Information:**
+- Sample dataset: ComplexDataLab/Misinfo_Datasets
+- News event: Charlie Hebdo shooting (2015)
+- Platform: Huggingface
+- link of subset: [https://huggingface.co/datasets/ComplexDataLab/Misinfo_Datasets]
+- original link of PHEME dataset: [https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078]
+- Number of posts: 
+- true 193 
+- unverified 149 
+- false 116
+
+
 Problems: 
 1. Veracity labels have no explanation -> it's not clear whether they are true/false, and on some occasions that i have manually looked for its truthfulness online, many of them were not true --> new LLMs might have information on that. 
 2. A lot of the tweets are not really relevant and are very far off the political news event. F.e. for the Charlie Hebdo case, one shares the post of an art released by artist Banksy. So it's very mixed and not really all related directly to the shooting. --> maybe later filter out subsets of examples 
