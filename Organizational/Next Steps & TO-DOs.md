@@ -1,12 +1,14 @@
 # Next Steps (Breadcrumbs)
 ### 9.01.26
+- Implement the embedding part
 - Start experimenting in the MTEC server. Access information can be found in .env file
 
 ### 15.12.25
-1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient
-2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible.
-3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected --> or parquet files
-4. Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?
+1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient ✅
+2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible. ✅
+3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected --> or parquet files ✅
+4. ==Scale it a bit. Run f.e. each prompt variation (let's say i'll have 10) with a different model (I have 3 for now) and with different versions of the news article (2, for now) and different n_shots (0,1). In total, would be 120 generated instances?== ✅
+5
 
 - **Ideas**:
 Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeliness", correctness, naturalness, hallucination, "consistency" --> could do that by prompting another LLM to evaluate on those aspects. 

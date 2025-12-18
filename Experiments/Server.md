@@ -18,7 +18,7 @@ TURBO_USER=gabriella
 |---|---|---|---|---|---|
 |0|NVIDIA RTX 6000 Ada Generation|49,140 MiB (~48 GB)|38 MiB|580.65.06|13.0|
 
-##  USEFUL COMMANDS ===
+##  USEFUL COMMANDS 
 - ssh username@host # access the host
 - exit # disconnect 
 - nvidia-smi    # GPU usage
