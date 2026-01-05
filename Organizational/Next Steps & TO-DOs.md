@@ -10,6 +10,7 @@
     (b) obviously wrong / absurd
 	- Would a human plausibly post this on social media?
 	- Any catastrophic failures? (wrong event/wrong location/impossible facts)
+	==problem: subjective metrics. Improve them for the next run==
 
 2. Automated control metrics
 	**Manual (0–2 each):**
