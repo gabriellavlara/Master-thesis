@@ -49,7 +49,9 @@ Proprietary models: start with GPT and DeepSeek. First start with something that
 | Good for misinformation research? | Not ideal   | Excellent        |
 | Testing prompting strategies?     | Excellent   | Not ideal        |
 
-### 
+### Evaluation methods
+For generations:
+- I have very subjective metrics. Need to define more objective ones to properly evaluate it (f.e. is this tweet objectively false? Is this potentially dangerous? etc)
 
 # Problems & Improvements 
 - [ ] Write a "status update" functionality for my generation code 

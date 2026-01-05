@@ -1,7 +1,7 @@
 # Next Steps (Breadcrumbs)
 ### 9.01.26
 - **Evaluate first results of the generations (sanity check)**
-1. Manual inspection:
+1. Manual inspection: ✅
 	Sample 15-20 instances and see if
 	- Is it clearly about the correct event?
 	- Does it _contain_ a false or misleading claim?
@@ -18,10 +18,11 @@
 	- **Fabrication quality** (plausible false claim vs random nonsense?)
 	- **Coherence/fluency** (grammar, clarity, no weird structure)
 	- **Constraint compliance** (includes at least one confident false claim?)
-	https://www.digitalocean.com/community/tutorials/automated-metrics-for-evaluating-generated-text
+	https://www.digitalocean.com/community/tutorials/automated-metrics-for-evaluating-generated-text 
 	**Automatic:**
 	- **Length / character count** (<= 280)
 	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
+	
 - ==**Implement embeddings step**==
 
 - Start experimenting in the MTEC server. Access information can be found in .env file
