@@ -23,7 +23,8 @@
 	**Automatic:**
 	- **Length / character count** (<= 280)
 	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
-	
+- Run basic analytics for the evaluation metrics of the first 75 generated instances. 
+	- Might be interesting to know: which prompt generated the best result (with the highest overall score)? Which prompt generated the most tweet-like and/or human-like entry?
 - ==**Implement embeddings step**==
 
 - Start experimenting in the MTEC server. Access information can be found in .env file
