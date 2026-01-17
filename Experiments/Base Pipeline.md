@@ -48,8 +48,22 @@ Proprietary models: start with GPT and DeepSeek. First start with something that
 | Scalability                       | Excellent   | Poor             |
 | Good for misinformation research? | Not ideal   | Excellent        |
 | Testing prompting strategies?     | Excellent   | Not ideal        |
+## Embedding
+#### Problems
+1. **Truth vs falsity is not purely semantic**  
+    Two claims can be semantically _very_ similar but opposite in truth value:
+- “X cures cancer” vs “X does not cure cancer”  
+    SBERT often puts them close because the surface semantics overlap heavily.
+2. **Tweets are short + noisy**  
+    Slang, sarcasm, hashtags, URLs, emojis, named entities… generic SBERT can be “okay” but sometimes misses the signal.
+3. **Topic dominates**  
+    Embeddings often cluster by topic/event first, not veracity. So you might find:
+    
 
+- HUMAN_TRUE and HUMAN_FALSE about the same event are close  
+    even if “fake vs true” differs.
 ### Evaluation methods
+
 For generations:
 - I have very subjective metrics. Need to define more objective ones to properly evaluate it (f.e. is this tweet objectively false? Is this potentially dangerous? etc)
 For embeddings:
