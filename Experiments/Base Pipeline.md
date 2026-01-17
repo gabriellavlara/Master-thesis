@@ -67,7 +67,7 @@ For generations:
 - I have very subjective metrics. Need to define more objective ones to properly evaluate it (f.e. is this tweet objectively false? Is this potentially dangerous? etc)
 For embeddings:
 - When querying with LLM_FALSE, how often do the top-k results come from HUMAN_FALSE vs HUMAN_TRUE?
-- Or the other way aroung: when querying with HUMAN_FALSE (real-life target), how often do top-k results come from LLM_FALSE vs. HUMAN_TRUE?
+- Or the other way around: when querying with HUMAN_FALSE (real-life target), how often do top-k results come from LLM_FALSE vs. HUMAN_TRUE?
 # Problems & Improvements 
 - [ ] Write a "status update" functionality for my generation code 
 - [ ] Also add eventID to the generation json maybe? or not, just store it on different names
