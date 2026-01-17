@@ -12,7 +12,7 @@
 	- Any catastrophic failures? (wrong event/wrong location/impossible facts)
 	==problem: subjective metrics. Improve them for the next run==
 
-2. Automated control metrics
+2. Automated control metrics. -> not for now
 	**Manual (0–2 each):**
 	- **Human-likeness** (reads like a real tweet?)
 	- **Event relevance** (clearly about the article/event?)
