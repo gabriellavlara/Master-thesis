@@ -59,7 +59,6 @@ Proprietary models: start with GPT and DeepSeek. First start with something that
 3. **Topic dominates**  
     Embeddings often cluster by topic/event first, not veracity. So you might find:
     
-
 - HUMAN_TRUE and HUMAN_FALSE about the same event are close  
     even if “fake vs true” differs.
 ### Evaluation methods
