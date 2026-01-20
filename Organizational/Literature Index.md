@@ -62,6 +62,7 @@ WHERE contains(file.tags, "fact-checking")
 ## Machine Learning
 - ==[[sentence-bert.pdf]]== - creates semantically meaningful sentence embeddings that can be compared using cosine-similarity --> https://sbert.net/
 - [ ] Write about language and embedding models, what they do. F.e. write about S-BERT and how it works.
+- [ ] Write about dimensionality reduction techniques (such as UMAP and t-SNE) -> not sure if that's entirely needed 
 - ==[[GTE-embedder.pdf]]== - general purpose text embedding model 
 -   [[SheepDog.pdf]] - model that verifies fakes based on content and not style (useful for catching machine generated fakes)
 - ==[[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]]== - fake news detection using sentence embedding models
