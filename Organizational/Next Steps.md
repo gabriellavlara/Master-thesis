@@ -8,7 +8,7 @@
 ### 24.01.26
 - Implement embedding storage ✅
 - write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file. ✅
-- - Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY) 
+- Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY) 
 - produce a **tidy results table**:
 	- define score: max cosine similarity to any LLM_fake
 	- columns: post_id, event_id, label (true/false), score, top_k_neighbor_ids, neighbor_labels, generator_config_id, embed_model_id
@@ -19,9 +19,9 @@
 	- join generation scores with embedding behaviour (maybe? )
 	- deliverable: just add a section in 02_llm_generation.ipynb
 - **prompt/style ablation analysis**: 
-	- *Which prompts generate the most human-alike posts?* based on UMAP
+	- *Which prompts generate the most human-alike posts?* 
 	- link human evaluation of prompts to actual embedding results (Check if my perceived human_likeness equals to avg_sim_to_human_posts)
-	- deliverable: 04_results_inspection.ip
+	- deliverable: 04_results_inspection.ipynb
 ### 9.01.26
 - **Evaluate first results of the generations (sanity check)**
 1. Manual inspection: ✅
