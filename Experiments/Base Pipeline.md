@@ -72,4 +72,5 @@ For embeddings:
 - [ ] Write a "status update" functionality for my generation code 
 - [ ] Also add eventID to the generation json maybe? or not, just store it on different names
 - [ ] Restructure the folders to have one probably called scripts/generate.py
+- [ ] Make sure the code accesses values of model_name, modelid etc via CONFIG file (best-practice and makes it easier to change and experiment with more things later!)
 - 
