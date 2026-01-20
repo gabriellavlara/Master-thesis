@@ -1,10 +1,11 @@
 # Next Steps (Breadcrumbs)
 ### 30.01.26
-- try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
-
+try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
 - try new prompting techniques that explicitly mention the tweet must sound like it was written by a human.
-- write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file.
-- - Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY)
+### 24.01.26
+- Implement embedding storage
+- write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file. 
+- - Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY) 
 ### 9.01.26
 - **Evaluate first results of the generations (sanity check)**
 1. Manual inspection: ✅
@@ -108,11 +109,4 @@ Investigate WHEN does the LLM get more creative?
 3. decide how to **store the generated instances with metadata**. My suggestion would be to have a DF that associated generated tweet to event_ID and newsarticle_ID and prompting_strategy. 
 generation_ID; event_ID newsarticle_ID; 
 model_id; [...]
-
-# TO-DOs 
-```tasks
-not done
-
-
-```
 
