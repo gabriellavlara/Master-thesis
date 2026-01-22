@@ -14,12 +14,12 @@
 	- columns: post_id, event_id, label (true/false), score, top_k_neighbor_ids, neighbor_labels, generator_config_id, embed_model_id
 	- deliverable: results.csv
 - integrate **human evaluation**: 
-	- *Which stylistic constraints make LLM fakes behave more like human fakes?*
+	- *Which stylistic constraints make LLM fakes behave more like human fakes?* 
 	- clean and normalize generations_score.json
 	- join generation scores with embedding behaviour (maybe? )
 	- deliverable: just add a section in 02_llm_generation.ipynb
 - **prompt/style ablation analysis**: 
-	- *Which prompts generate the most human-alike posts?* 
+	- *Which prompts generate the most human-alike posts?*  
 	- link human evaluation of prompts to actual embedding results (Check if my perceived human_likeness equals to avg_sim_to_human_posts)
 	- deliverable: 04_results_inspection.ipynb
 ### 9.01.26

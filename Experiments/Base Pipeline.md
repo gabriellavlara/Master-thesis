@@ -73,4 +73,5 @@ For embeddings:
 - [ ] Also add eventID to the generation json maybe? or not, just store it on different names
 - [ ] Restructure the folders to have one probably called scripts/generate.py
 - [ ] Make sure the code accesses values of model_name, modelid etc via CONFIG file (best-practice and makes it easier to change and experiment with more things later!)
+- [ ] Set up a run or experiment number METADATA in generate_in_server.py (so that i can store the results for each experiment and compare them later) --> that will require changing the folder structure... 
 - 
