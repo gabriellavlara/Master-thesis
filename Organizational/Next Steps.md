@@ -20,7 +20,7 @@
 - Inform myself about other embedding models: --> make a table with (what they capture, typical models, known limitations on short texts (tweets))
     - _Event / semantic embeddings_ --> [[sentence-bert.pdf]] [[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]]
     - _Style / grammar embeddings_ --> [[autorship_attribution_for_text_generationpdf.pdf]]
-    - _Stance / sentiment embeddings_ --> 
+    - _Stance / sentiment embeddings_ --> [[detecting_stance_in_tweets.pdf]]
 - Write a bit in the methodology page on overleaf
 
 ### 24.01.26
