@@ -1,8 +1,8 @@
 # Goals:
-1. Does the pipeline run end-to-end?
-2. Do prompts actually induce measurably false content? Are different prompt variants _meaningfully different_?
-3. Do embeddings distinguish article vs generated tweet in any signal at all?
-4. Do embeddings show false content (organic AND synthetic) closer to each other than real and fake?
+1. Does the pipeline run end-to-end? ✅
+2. Do prompts actually induce measurably false content? Are different prompt variants _meaningfully different_? 🤔
+3. Do embeddings distinguish human vs llm generated tweet in any signal at all? ✅
+4. Do embeddings show false content (organic AND synthetic) closer to each other than real and fake? ❌
 
 ### Data curation
 #### **Information:**

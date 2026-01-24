@@ -1,6 +1,6 @@
 # Next Steps (Breadcrumbs)
 ### 30.01.26
-- GET BETTER DATASET!!!
+- **GET BETTER DATASET!!!**
 - try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
 - try new prompting techniques that explicitly mention the tweet must sound like it was written by a human.
 - implement quantitative metrics to evaluate results:
