@@ -11,8 +11,13 @@
 - implement quantitative metrics to evaluate results:
 	- precision@k 
 	- TPR 
+- Try different embedding models that capture other aspects of one social media post
+	- - **grammar/style aware models**?
+	- - **stance/sentiment** extraction?
+	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
+	
 ### 30.01.26
-- try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
+
 
 ### 24.01.26
 - Implement embedding storage ✅
