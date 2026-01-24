@@ -1,11 +1,19 @@
 # Next Steps (Breadcrumbs)
-### 30.01.26
-- **GET BETTER DATASET!!!**
-- try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
-- try new prompting techniques that explicitly mention the tweet must sound like it was written by a human.
+
+### 6.02.26
+- Run pipeline with better dataset: which one though? 
+- try new prompting techniques that:
+	- explicitly mention the tweet must sound like it was written by a human
+	- provide examples (few shot prompting)
+	- explicitly mention the disinformation type:
+		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire
+		- **Style-based, content-based, information-blending, story-based** —> from Megafake paper
 - implement quantitative metrics to evaluate results:
 	- precision@k 
 	- TPR 
+### 30.01.26
+- try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
+
 ### 24.01.26
 - Implement embedding storage ✅
 - write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file. ✅
