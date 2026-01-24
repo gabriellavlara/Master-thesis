@@ -53,7 +53,7 @@ WHERE contains(file.tags, "LLMs-as-classifiers")
 ## Fact-cheking 
 - [[checkthat-overview.pdf]] - overview of solutions on a challenge that finds different solutions for finding check-worthy claims
 - [[from-misinfo-to-insight-MLstrategies.pdf]] - an overview of existing ML 
- 
+- ==[[autorship_attribution_for_text_generationpdf.pdf]] ==- **writing style alone** can be predictive in misinformation contexts.
 ```dataview
 LIST
 FROM "Literature/Notes"
