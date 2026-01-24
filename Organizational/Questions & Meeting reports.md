@@ -10,12 +10,12 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 30.01.26
-1. 
+1. Check slide presentation (MA_status_update)
 ## 15.12.25
 1. What kinds of metrics should i use to evaluate a generated response?
 - Evaluate different prompts given fluency, quality, adequacy, coherence, "human-likeliness", correctness, naturalness, hallucination, "consistency" --> could do that by prompting another LLM to evaluate on those aspects. 
 - Number of character diff, semantic similarity
-- Define "disinformation"-traits (f.e. numerical fabrication, change in associated people)
+- Define **"disinformation"-traits** (f.e. numerical fabrication, change in associated people)
 
 ### 05.12.25
 1. Can i get access to the TU's servers and GPUs? I am facing limitations running models locally (VERY slow inference, MPS quirks) --> Veronika sent her an email  ✅
