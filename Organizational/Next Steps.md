@@ -1,5 +1,6 @@
 # Next Steps (Breadcrumbs)
 ### 30.01.26
+- GET BETTER DATASET!!!
 - try with different embedding models. F.e. try with OpenAI's embedding model? Just to see if it captures any other aspects
 - try new prompting techniques that explicitly mention the tweet must sound like it was written by a human.
 - implement quantitative metrics to evaluate results:
@@ -9,16 +10,16 @@
 - Implement embedding storage ✅
 - write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file. ✅
 - Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY) 
-- produce a **tidy results table**:
+- produce a **tidy results table**: ✅
 	- define score: max cosine similarity to any LLM_fake
 	- columns: post_id, event_id, label (true/false), score, top_k_neighbor_ids, neighbor_labels, generator_config_id, embed_model_id
 	- deliverable: results.csv
-- integrate **human evaluation**: 
+- integrate **human evaluation**: ✅
 	- *Which stylistic constraints make LLM fakes behave more like human fakes?* 
 	- clean and normalize generations_score.json
 	- join generation scores with embedding behaviour (maybe? )
 	- deliverable: just add a section in 02_llm_generation.ipynb
-- **prompt/style ablation analysis**: 
+- **prompt/style ablation analysis**: ✅
 	- *Which prompts generate the most human-alike posts?*  
 	- link human evaluation of prompts to actual embedding results (Check if my perceived human_likeness equals to avg_sim_to_human_posts)
 	- deliverable: 04_results_inspection.ipynb
@@ -48,7 +49,7 @@
 	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
 - Run basic analytics for the evaluation metrics of the first 75 generated instances. 
 	- Might be interesting to know: which prompt generated the best result (with the highest overall score)? Which prompt generated the most tweet-like and/or human-like entry?
-- ==**Implement embeddings step**==
+- ==**Implement embeddings step **== ✅
 
 - Start experimenting in the MTEC server. Access information can be found in .env file
 -  Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
