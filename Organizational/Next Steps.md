@@ -17,6 +17,7 @@
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 	
 ### 30.01.26
+- apply PCA before UMAP -> to denoise (apparently that's best practice)
 - Inform myself about other embedding models: --> make a table with (what they capture, typical models, known limitations on short texts (tweets))
     - _Event / semantic embeddings_ --> [[sentence-bert.pdf]] [[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]]
     - _Style / grammar embeddings_ --> [[autorship_attribution_for_text_generationpdf.pdf]]
