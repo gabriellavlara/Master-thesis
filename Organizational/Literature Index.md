@@ -5,7 +5,6 @@
 - [[fakenews-detection-data-mining.pdf]] - fake news characterizations on psychology and social theories + existing algorithms from a data mining perspective
 - ==[[rumors-socialmedia.pdf]]== - rumo
 - ==[[https://link.springer.com/article/10.1007/s13278-023-01028-5]]== - fake news: definitions and formalities
-
 ```dataview
 LIST
 FROM "Literature/Notes"
@@ -17,7 +16,6 @@ WHERE contains(file.tags, "fakenews")
 - [[all-in-one_PHEMEdataset.pdf]] - automatic resolution of rumor using PHEME and 
 - [[disinfo-capabilities-of-LLMs.pdf]]- evaluate 10 LLMs using 20 disinfo narratives
 - ==[[guide-to-disinfo-detectin.pdf]]== - 
-
 
 ```dataview
 LIST
@@ -43,7 +41,6 @@ WHERE contains(file.tags, "LLMs-as-generators")
 - [[comparing_LLMs_BERT.pdf]] - compare encoder- and decoder-model for identifying fakes
 - [[synthesis-llm-fake-detection.pdf]] - an overview of LLM existing approaches to classify fakes
 - [[dual-role-of-llms.pdf]] - pipeline that generates and then classifies fakes using LLMs
--
 
 ```dataview
 LIST
@@ -53,7 +50,7 @@ WHERE contains(file.tags, "LLMs-as-classifiers")
 ## Fact-cheking 
 - [[checkthat-overview.pdf]] - overview of solutions on a challenge that finds different solutions for finding check-worthy claims
 - [[from-misinfo-to-insight-MLstrategies.pdf]] - an overview of existing ML 
-- ==[[autorship_attribution_for_text_generationpdf.pdf]] ==- **writing style alone** can be predictive in misinformation contexts.
+- [[autorship_attribution_for_text_generationpdf.pdf]] - **writing style alone** can be predictive in misinformation contexts.
 ```dataview
 LIST
 FROM "Literature/Notes"
@@ -66,7 +63,7 @@ WHERE contains(file.tags, "fact-checking")
 - ==[[detecting_stance_in_tweets.pdf]]== - detects stance in tweets
 - ==[[GTE-embedder.pdf]]== - general purpose text embedding model 
 -   [[SheepDog.pdf]] - model that verifies fakes based on content and not style (useful for catching machine generated fakes)
-- ==[[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]]== - fake news detection using sentence embedding models
+- [[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]] - fake news detection using sentence embedding models
 - ==[[EACL_2026___Confirmation_Bias.pdf]]== - 
 - ==[[2024.naacl-demo.8.pdf]]== - Existing biases in instruction-tuned LLMs
 
