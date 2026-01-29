@@ -7,7 +7,7 @@
 - Fakes change the way people respond to real news - it triggers them and makes them confuse (source 6https://www.nytimes.com/2016/11/28/opinion/fake-news-and-the-internet-shell-game.html? r=0)
 - Problems with fakes: may cite true evidence to support non-factual claim; usually related to newly emerging, time-critical events which may not have been yet verified by existing knowledge bases 
 ### Characterization of fakes
-- Definition: news that are intentionally and verifiably false and could mislead readers --> **authenticity & intent**
+- Definition: news that are intentionally and verifiably false and could mislead readers --> ==**authenticity & intent**==
 - Factors that make people more prone to believing in fakes: naive realism (only ones perception is the accurate one, all others are irrational/biased/uninformed) + confirmation bias (they prefer info that confirms their preexisting views)
 - Problems of social media:
 	- social bots that spread fakes or distort news -> around 19 million accounts supported either Trump or Clinton in the week leading to election days (8http://comprop.oii.ox.ac.uk/2016/11/18/resource-for-understanding-political-bots/)
@@ -42,3 +42,5 @@ Feature extraction:
 # Might be useful for my work
 - Check highlighted for characteristics of fakes
 - They have a very good mathematical definition of the fake news detection problem![[fakenews-detection-math.png]]
+- **Rumor Classification** A rumor can usually be defined as “a piece of circulating information whose veracity status is yet to be verified at the time of spreading” [102]. The function of a rumor is to make sense of an ambiguous situation, and the truthful- ness value could be true, false or unverified. 
+- [ ] Write about rumor in section "fake news: definitions and ..."
