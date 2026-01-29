@@ -41,4 +41,4 @@ Feature extraction:
 - 
 # Might be useful for my work
 - Check highlighted for characteristics of fakes
-- They have a very good mathematical definition of the fake news detection problem![[Screenshot 2026-01-29 at 10.30.56.png]]
+- They have a very good mathematical definition of the fake news detection problem![[fakenews-detection-math.png]]
