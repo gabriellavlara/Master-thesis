@@ -1,7 +1,7 @@
 # Next Steps (Breadcrumbs)
 
 ### 6.02.26
-- Run pipeline with better dataset: which one though? 
+- Run pipeline with better dataset: Monkeypox misinformation
 - try new prompting techniques that:
 	- explicitly mention the tweet must sound like it was written by a human
 	- provide examples (few shot prompting)
