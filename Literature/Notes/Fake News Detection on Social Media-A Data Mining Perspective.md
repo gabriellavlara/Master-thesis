@@ -22,10 +22,10 @@ Feature extraction:
 	- headline
 	- body text
 	- image/video
-- fake news often contain **inflammatory language** as clickbait -> sensational headlines and writing styles
+- ==fake news often contain **inflammatory language** as clickbait -> sensational headlines and writing styles==
 - linguistic features:
-	- lexical features: total words, character per word, frequency of large words, unique words
-	- synthetic features: n-grams, punctuations, parts-of-speech tagging
+	==- lexical features: total words, character per word, frequency of large words, unique words
+	- ==synthetic features: n-grams, punctuations, parts-of-speech tagging==
 - visual features:
 	- clarity score, coherence score, similarity distribution histogram, diversity score, clustering score, image ration, etc
 - social context features:
@@ -39,3 +39,6 @@ Feature extraction:
 - Classification problem where TP = when predicted fake is actually annotated as fake; TN = when predicted real news is annotated as true
 - Metrics for evaluating performance: precision, recall, f1, accuracy, TPR; TNR; AUC (more statistically consisent and discriminating than accuracy, specially for imbalanced distributions)
 - 
+# Might be useful for my work
+- Check highlighted for characteristics of fakes
+- They have a very good mathematical definition of the fake news detection problem![[Screenshot 2026-01-29 at 10.30.56.png]]
