@@ -1,12 +1,14 @@
 # Next Steps (Breadcrumbs)
 
 ### 6.02.26
+- update slides with new dataset 
+	- find out how to extract more "general" conclusions from the results? Even if intermediate 
 - Run pipeline with better dataset: Monkeypox misinformation (https://www.kaggle.com/datasets/stephencrone/monkeypox) ✅
 - try new prompting techniques that:
 	- explicitly mention the tweet must sound like it was written by a human ✅
 	- provide examples (few shot prompting)
-	- explicitly mention the disinformation type:
-		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire ✅
+	- explicitly mention the disinformation type: ✅
+		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire 
 		- **Style-based, content-based, information-blending, story-based** —> from Megafake paper 
 - implement quantitative metrics to evaluate results:
 	- precision@k 
