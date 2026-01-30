@@ -3,6 +3,7 @@
 ### 6.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate 
+	- create wizmap maybe?
 - Run pipeline with better dataset: Monkeypox misinformation (https://www.kaggle.com/datasets/stephencrone/monkeypox) ✅
 - try new prompting techniques that:
 	- explicitly mention the tweet must sound like it was written by a human ✅
