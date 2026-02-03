@@ -38,7 +38,7 @@
     
 - ### 3.02.26
 - update slides with new dataset 
-	- find out how to extract more "general" conclusions from the results? Even if intermediate --> **results table that evaluate per experimental se;)**
+	- find out how to extract more "general" conclusions from the results? Even if intermediate --> **results table that evaluate per experimental setup ;)**
 	- create wizmap maybe?
 - Run pipeline with better dataset: Monkeypox misinformation (https://www.kaggle.com/datasets/stephencrone/monkeypox) ✅
 - try new prompting techniques that:
@@ -47,9 +47,6 @@
 	- explicitly mention the disinformation type: ✅
 		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire 
 		- **Style-based, content-based, information-blending, story-based** —> from Megafake paper 
-- implement quantitative metrics to evaluate results:
-	- precision@k 
-	- TPR 
 - Try different embedding models that capture other aspects of one social media post
 	- - **grammar/style aware models**?
 	- - **stance/sentiment** extraction?
