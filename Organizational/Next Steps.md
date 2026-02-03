@@ -1,6 +1,6 @@
 # Next Steps (Breadcrumbs)
 ### 20.02.26
-- Read papers Veronika sent me; read about other scoring techni
+- Read papers Veronika sent me; read about other scoring techniques
 - Try different embedding models that capture other aspects of one social media post
 	- - **grammar/style aware models**?
 	- - **stance/sentiment** extraction?
