@@ -38,7 +38,7 @@
     
 - ### 3.02.26
 - update slides with new dataset 
-	- find out how to extract more "general" conclusions from the results? Even if intermediate 
+	- find out how to extract more "general" conclusions from the results? Even if intermediate --> **results table that evaluate per experimental se;)**
 	- create wizmap maybe?
 - Run pipeline with better dataset: Monkeypox misinformation (https://www.kaggle.com/datasets/stephencrone/monkeypox) ✅
 - try new prompting techniques that:
