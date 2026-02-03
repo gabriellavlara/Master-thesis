@@ -2,7 +2,11 @@
 ### 13.02.26
 - Improve evaluation script
 	- implement flagging based on threshhold and top-k NN
-	- store results **per experimental run** 
+	- store results **per experimental run** (for each HUMAN):
+		- embedding_model
+		- similarity_metric
+		- llm_model
+		- promptID
 ### 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate 
