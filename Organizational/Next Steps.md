@@ -1,4 +1,6 @@
 # Next Steps (Breadcrumbs)
+### 20.02.26
+
 ### 13.02.26
 - Improve `RUN_DISINFORMATION_DETECTION` script
     - produce results **per experimental setup** (for each `HUMAN_` post):
@@ -36,7 +38,7 @@
     - save as `flagging_metrics.csv`
     - note in thesis: metrics may be poor initially → use as motivation for next prompt iteration
     
-- ### 3.02.26
+### 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate --> **results table that evaluate per experimental setup ;)**
 	- create wizmap maybe?
@@ -47,10 +49,6 @@
 	- explicitly mention the disinformation type: ✅
 		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire 
 		- **Style-based, content-based, information-blending, story-based** —> from Megafake paper 
-- Try different embedding models that capture other aspects of one social media post
-	- - **grammar/style aware models**?
-	- - **stance/sentiment** extraction?
-	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 	
 ### 30.01.26
 - apply PCA before UMAP -> to denoise (apparently that's best practice)
