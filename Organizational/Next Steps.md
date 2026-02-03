@@ -35,6 +35,7 @@
         - store `n_flagged` + `flag_rate` _(very useful for interpretation)_
     - save as `flagging_metrics.csv`
     - note in thesis: metrics may be poor initially → use as motivation for next prompt iteration
+    
 - ### 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate 
