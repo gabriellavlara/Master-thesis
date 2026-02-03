@@ -16,6 +16,7 @@ WHERE contains(file.tags, "fakenews")
 - [[all-in-one_PHEMEdataset.pdf]] - automatic resolution of rumor using PHEME and 
 - [[disinfo-capabilities-of-LLMs.pdf]]- evaluate 10 LLMs using 20 disinfo narratives
 - ==[[guide-to-disinfo-detectin.pdf]]== - 
+- ==**HQP dataset** check that out!==
 
 ```dataview
 LIST
@@ -56,6 +57,9 @@ LIST
 FROM "Literature/Notes"
 WHERE contains(file.tags, "fact-checking")
 ```
+## Propaganda
+- ==[[entity-framing.pdf]] ==- frames entitites as protagonist/antagonist/innocent
+- ==[[propaganda-detection.pdf]]== - 
 ## Machine Learning
 - [[sentence-bert.pdf]] - creates semantically meaningful sentence embeddings that can be compared using cosine-similarity --> https://sbert.net/
 - [ ] Write about language and embedding models, what they do. F.e. write about S-BERT and how it works.

@@ -1,6 +1,9 @@
 # Next Steps (Breadcrumbs)
-
-### 6.02.26
+### 13.02.26
+- Improve evaluation script
+	- implement flagging based on threshhold and top-k NN
+	- store results **per experimental run** 
+### 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate 
 	- create wizmap maybe?
