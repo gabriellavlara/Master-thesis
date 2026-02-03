@@ -1,6 +1,10 @@
 # Next Steps (Breadcrumbs)
 ### 20.02.26
-
+- Read papers Veronika sent me; read about other scoring techni
+- Try different embedding models that capture other aspects of one social media post
+	- - **grammar/style aware models**?
+	- - **stance/sentiment** extraction?
+	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 13.02.26
 - Improve `RUN_DISINFORMATION_DETECTION` script
     - produce results **per experimental setup** (for each `HUMAN_` post):
