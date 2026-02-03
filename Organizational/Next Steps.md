@@ -1,13 +1,41 @@
 # Next Steps (Breadcrumbs)
 ### 13.02.26
+- Improve `RUN_DISINFORMATION_DETECTION` script
+    - produce results **per experimental setup** (for each `HUMAN_` post):
+        - `datasetID` _(add this — otherwise you’ll mix datasets later)_
+        - `embedding_model`
+        - `similarity_metric`
+        - `llm_model`
+        - `promptID`
+    - **define and document score** computed per human post:
+        - `score_to_llm_false = max similarity to any LLM_FALSE in pool(promptID, llm_model)`
+        - store also `nearest_llm_genID` _(optional but super helpful for debugging/examples)            
+    - **log pool size** per setup:
+        - `n_llm_false_pool` _(important for pool-size bias)_
+    - store instance-level score table to disk
+        - prefer **Parquet** for size + speed; CSV ok for small tests
+        - file name should encode dataset + embedding model + metric (or store all in one tidy file)
 - Improve evaluation script
-	- implement flagging based on threshhold and top-k NN
-	- store results **per experimental run** (for each HUMAN):
-		- embedding_model
-		- similarity_metric
-		- llm_model
-		- promptID
-### 3.02.26
+    - per setup (embedding_model × metric × llm_model × promptID), compute summary table:
+        - `n, mean, median, std, q25, q75`
+        - consider also `q90` _(tails are useful for thresholding)_
+        - compute separation helper:
+            - `delta_mean = mean(HUMAN_FALSE) - mean(HUMAN_TRUE)` _(simple, thesis-friendly)_
+    - write `closeness_summary.csv` → thesis-like results table
+- Implement flagging + prediction metrics
+    - implement flagging rules **per setup** (don’t mix prompts/models):
+        - threshold-based on `score_to_llm_false`
+        - top-k (define clearly if it’s top-k per LLM_FALSE seed or top-k by human score)
+    - compute confusion matrix (choose evaluation labels):
+        - treat `HUMAN_FALSE` as positive class
+        - exclude or separately report `HUMAN_OTHER` _(decide and document)_
+    - compute and store:
+        - `precision, recall, F1`
+        - also store `TP, FP, TN, FN` _(makes debugging easy)_
+        - store `n_flagged` + `flag_rate` _(very useful for interpretation)_
+    - save as `flagging_metrics.csv`
+    - note in thesis: metrics may be poor initially → use as motivation for next prompt iteration
+- ### 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate 
 	- create wizmap maybe?
