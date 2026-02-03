@@ -7,8 +7,9 @@
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 13.02.26
 - Implement BERTScore in addition to cosine similarity.
-	- - **Cosine similarity** → “Are these posts about similar things?”
+	- **Cosine similarity** → “Are these posts about similar things?”
 	- **BERTScore** → “Do these posts make similar claims using similar language?”
+	- BERTScore can penalize mismatched tokens more than a single sentence embedding might.
 - Change S-BERT to RoBERTa 
 - Improve `RUN_DISINFORMATION_DETECTION` script
     - produce results **per experimental setup** (for each `HUMAN_` post):
