@@ -111,8 +111,9 @@ F.e. a claim that says "Earth is flat" and one that says "Earth is not flat" wou
 
 
 # Meeting Reports
-## 
-
+## 3.02.2026
+- Possible future dataset to experiment with: **==HQP dataset==**
+- 
 ## 30.09.2025
 - Try out different nationalities for proprietary LLMs - f.e. DeepSeek, GPT, Mistral (Europe)
 - Make data curation in the timeline longer -> initial data curation w historic and already labeled data + try new posts
