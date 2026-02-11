@@ -24,6 +24,7 @@
         - store also `nearest_llm_genID` _(optional but super helpful for debugging/examples)            
     - **log pool size** per setup:
         - `n_llm_false_pool` _(important for pool-size bias)_
+- Results table for each combination of EMBEDDING_MODEL, LLM_MODEL -> the similarity and flagging should be all in the same result table. 
     - store instance-level score table to disk
         - prefer **Parquet** for size + speed; CSV ok for small tests
         - file name should encode dataset + embedding model + metric (or store all in one tidy file)
