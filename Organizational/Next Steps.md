@@ -7,6 +7,8 @@
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 13.02.26
 - **==RETRIEVE & RERANK PIPELINE==**: first filter based on cosine similarity (f.e. threshhold would be similarity > 0.5), then compute BERTScore for all remaining entries.
+	- Why? BERTScore is way more computationally expensive
+	- Also makes sense to remove completely misaligned (f.e. topic misaligned) values from the comparison
 - Implement BERTScore in addition to cosine similarity.
 	- **Cosine similarity** → “Are these posts about similar things?”
 	- **BERTScore** → “Do these posts make similar claims using similar language?”
