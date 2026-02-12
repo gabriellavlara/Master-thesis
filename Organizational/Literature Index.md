@@ -78,7 +78,7 @@ WHERE contains(file.tags, "machine-learning")
 ```
 
 ## Evaluation
-- [[bertscore.pdf]] - scoring technique for generated text
+- [[bertscore.pdf]] - scoring technique for generated text using contextual embeddings
 # Literature Map - what are the takeaways for my work
 ## Fake News
 **Source: [[from-misinfo-to-insight-MLstrategies.pdf]]:**
