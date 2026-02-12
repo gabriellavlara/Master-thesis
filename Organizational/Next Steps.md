@@ -6,11 +6,13 @@
 	- - **stance/sentiment** extraction?
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 13.02.26
+- ==RETRIEVE & RERANK PIPELINE==
 - Implement BERTScore in addition to cosine similarity.
 	- **Cosine similarity** → “Are these posts about similar things?”
 	- **BERTScore** → “Do these posts make similar claims using similar language?”
 	- BERTScore can penalize mismatched tokens more than a single sentence embedding might
 	- **My hypothesis: BERTScore will increase separation between HUMAN_FALSE and HUMAN_TRUE compared to cosine in embedding space.**
+	- 
 - Change S-BERT to RoBERTa 
 - Improve `RUN_DISINFORMATION_DETECTION` script
     - produce results **per experimental setup** (for each `HUMAN_` post):
@@ -22,8 +24,6 @@
     - **define and document score** computed per human post:
         - `score_to_llm_false = max similarity to any LLM_FALSE in pool(promptID, llm_model)`
         - store also `nearest_llm_genID` _(optional but super helpful for debugging/examples)            
-    - **log pool size** per setup:
-        - `n_llm_false_pool` _(important for pool-size bias)_
 - Results table for each combination of EMBEDDING_MODEL, LLM_MODEL -> the similarity and flagging should be all in the same result table. 
     - store instance-level score table to disk
         - prefer **Parquet** for size + speed; CSV ok for small tests
