@@ -11,6 +11,7 @@ Sub-research questions:
 # General questions
 ## 17.01.26
 1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page."
+2. should i explain WHAT was done and WHY? F.e. why did i use Gemma or DeepSeek? 
 ## 30.01.26
 1. Check slide presentation (MA_status_update)
 ## 15.12.25
