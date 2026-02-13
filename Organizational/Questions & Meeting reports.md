@@ -9,6 +9,8 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 17.01.26
+1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page."
 ## 30.01.26
 1. Check slide presentation (MA_status_update)
 ## 15.12.25
