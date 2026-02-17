@@ -10,11 +10,19 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 17.01.26
-1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page."
-2. should i explain WHAT was done and WHY? F.e. why did i use Gemma or DeepSeek? 
-3. Implementation:
-	- Resource allocation on server: do i need to define how much GPU i have access to? Should i store results in the server?
+from 45 pages to 120; around 70.
+1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page." --> answer: nr 2. 
+- mention hardware, how many hours it takes to run
+1. should i explain WHAT was done and WHY? F.e. why did i use Gemma or DeepSeek? 
+--> mention leaderboard of LLMs. 
+--> opinion GPT: model already finetuned for persona based prompting.
+2. Implementation:
+	- Resource allocation on server: do i need to define how much GPU i have access to? Should i store results in the server? --> best practice: check if any GPU is occuppied. 
+	- make a simlink for my work!
 	- Retrieval & rerank pipeline.
+	- calibration idea for prompting: try using **discourse quality index** 
+		- ask LLM to manipulate dimensions in the prompt they created
+	- take models that usually have papers.
 ## 30.01.26
 1. Check slide presentation (MA_status_update)
 ## 15.12.25
