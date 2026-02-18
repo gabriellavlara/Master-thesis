@@ -7,17 +7,12 @@
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 24.02
 - Write methodology pipeline:
-
 	- Retrieval–reranking design
 	- Justification of multi-stage similarity
 	- Explanation of top-k evaluation
-    
+- Write results:
+	- “Exploratory Observations”
 
-### In Results (Early Section):
-
-- “Exploratory Observations”
-    
-- Short subsection: “Preliminary Retrieval Behavior”
 - Write a results.py that i can rerun anytime. It should
 	- load all parquets
 	- merge results with human_ and llm_posts 
