@@ -1,11 +1,17 @@
 # Next Steps (Breadcrumbs)
 ### 27.02
-### 20.02.26
 - Read papers Veronika sent me; read about other scoring techniques
 - Try different embedding models that capture other aspects of one social media post
 	- - **grammar/style aware models**?
 	- - **stance/sentiment** extraction?
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
+### 24.02
+- Write about retrieve&rerank in methodology pipeline.
+- Write a results.py that i can rerun anytime. It should
+	- load all parquets
+	- merge results with human_ and llm_posts 
+	- create **run_summaries.parquet**
+	- produce base plots with stats like bertscore and cosine similarity for each combination of models
 ### 13.02.26
 - **==RETRIEVE & RERANK PIPELINE==**: first filter based on cosine similarity (f.e. threshhold would be similarity > 0.5), then compute BERTScore for all remaining entries. ✅
 	- Why? BERTScore is way more computationally expensive
@@ -14,7 +20,7 @@
 	- **Cosine similarity** → “Are these posts about similar things?”
 	- **BERTScore** → “Do these posts make similar claims using similar language?”
 	- BERTScore can penalize mismatched tokens more than a single sentence embedding might
-	- **My hypothesis: BERTScore will increase separation between HUMAN_FALSE and HUMAN_TRUE compared to cosine in embedding space.**
+	- **My hypothesis: BERTScore will increase separation between HUMAN_FALSE and HUMAN_TRUE compared to cosine in embedding space.** --> KINDA YE
 	- 
 - Change S-BERT to RoBERTa 
 - Improve `RUN_DISINFORMATION_DETECTION` script
