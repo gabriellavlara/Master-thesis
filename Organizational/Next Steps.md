@@ -10,8 +10,7 @@
 	- Retrieval–reranking design
 	- Justification of multi-stage similarity
 	- Explanation of top-k evaluation
-- Write results:
-	- “Exploratory Observations”
+	- Math formulations for generations and embedding parts. 
 
 - Write a results.py that i can rerun anytime. It should
 	- load all parquets
