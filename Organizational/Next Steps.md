@@ -29,18 +29,15 @@
 	- BERTScore can penalize mismatched tokens more than a single sentence embedding might
 	- **My hypothesis: BERTScore will increase separation between HUMAN_FALSE and HUMAN_TRUE compared to cosine in embedding space.** --> KINDA YES!
 
-- Improve `RUN_DISINFORMATION_DETECTION` script
-    - produce results **per experimental setup** (for each `HUMAN_` post):✅
+- Improve `RUN_DISINFORMATION_DETECTION` script ✅
+    - produce results **per experimental setup** (for each `HUMAN_` post):
         - `datasetID` _(add this — otherwise you’ll mix datasets later)_
         - `embedding_model`
         - `similarity_metric`
         - `llm_model`
         - `promptID`
-    - **define and document score** computed per human post:
-        - `score_to_llm_false = max similarity to any LLM_FALSE in pool(promptID, llm_model)`
-        - store also `nearest_llm_genID` _(optional but super helpful for debugging/examples)            
-- Results table for each combination of EMBEDDING_MODEL, LLM_MODEL -> the similarity and flagging should be all in the same result table. 
-    - store instance-level score table to disk
+- Results table for each combination of EMBEDDING_MODEL, LLM_MODEL -> the similarity and flagging should be all in the same result table. ✅
+    - store instance-level score table to disk ✅
         - prefer **Parquet** for size + speed; CSV ok for small tests
         - file name should encode dataset + embedding model + metric (or store all in one tidy file)
 - Improve evaluation script
