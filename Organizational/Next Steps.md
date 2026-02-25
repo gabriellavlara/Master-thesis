@@ -1,5 +1,6 @@
 # Next Steps (Breadcrumbs)
 ### 27.02
+- Evaluate qualitatively WHAT makes the posts so similar to each other.
 - Read papers Veronika sent me; read about other scoring techniques
 - Try different embedding models that capture other aspects of one social media post
 	- - **grammar/style aware models**?
@@ -16,7 +17,7 @@
 	- merge results with human_ and llm_posts 
 	- create **run_summaries.parquet**
 	- produce base plots with stats like bertscore and cosine similarity for each combination of models
-- Change S-BERT to another model (RoBERTa or MPN)
+- Change S-BERT to another model (RoBERTa or MPNET) ✅
 ### 13.02.26
 - **==RETRIEVE & RERANK PIPELINE==**: first filter based on cosine similarity (f.e. threshhold would be similarity > 0.5), then compute BERTScore for all remaining entries. ✅
 	- Why? BERTScore is way more computationally expensive
