@@ -6,18 +6,17 @@
 	- - **stance/sentiment** extraction?
 	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
 ### 24.02
-- Write methodology pipeline:
-	- Retrieval–reranking design
-	- Justification of multi-stage similarity
+- Write methodology pipeline: ✅
+	- Retrieval–reranking design ✅
 	- Explanation of top-k evaluation
 	- Math formulations for generations and embedding parts. 
 
-- Write a results.py that i can rerun anytime. It should
+- Write a results.py that i can rerun anytime. It should ✅
 	- load all parquets
 	- merge results with human_ and llm_posts 
 	- create **run_summaries.parquet**
 	- produce base plots with stats like bertscore and cosine similarity for each combination of models
-- Change S-BERT to RoBERTa 
+- Change S-BERT to another model (RoBERTa or MPN)
 ### 13.02.26
 - **==RETRIEVE & RERANK PIPELINE==**: first filter based on cosine similarity (f.e. threshhold would be similarity > 0.5), then compute BERTScore for all remaining entries. ✅
 	- Why? BERTScore is way more computationally expensive
