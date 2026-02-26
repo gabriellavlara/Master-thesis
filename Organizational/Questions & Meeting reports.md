@@ -15,7 +15,8 @@ Sub-research questions:
 	What makes no sense to me is that my pipeline is basically mostly *precision-oriented*, since of course my corpus will have many more false posts, the variable im interested in is, from the amount of posts I explicitly stated I want to flag, how many are actually false? 
 2. Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, that would be 22% right?
 3.  **How can I attribute changes to the general metrics (precision/recall) to individual components?**
-I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — which makes it hard to identify what actually drives performance 
+I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — which makes it hard to identify what actually drives performance.
+How 
 4.  Discuss Insights from ``05_evaluation.ipynb``
 5. 
 
