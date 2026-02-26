@@ -12,7 +12,9 @@ Sub-research questions:
 ## 27.02.26
 1- Definitions of precision and recall:
 	Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step, or consider the thing as a whole?
-	What makes no sense to me is that my pipeline is basically mostly *precision-oriented*, since of course my corpus will have many more false posts, the variable im interested in is, from the amount of posts I explicitly stated I want to flag, how many are actually false
+	What makes no sense to me is that my pipeline is basically mostly *precision-oriented*, since of course my corpus will have many more false posts, the variable im interested in is, from the amount of posts I explicitly stated I want to flag, how many are actually false? 
+2- Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, that would be 22% rig
+ 
 ## 17.01.26
 from 45 pages to 120; around 70.
 1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page." --> answer: nr 2. 
