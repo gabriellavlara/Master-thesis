@@ -1,11 +1,12 @@
 # Next Steps (Breadcrumbs)
 ### 27.02
 - Evaluate qualitatively WHAT makes the posts so similar to each other.
+	- Perform HUMAN-only analysis: identify linguistic differences between HUMAN_FALSE and HUMAN_TRUE (f.e. )
 - Read papers Veronika sent me; read about other scoring techniques
 - Try different embedding models that capture other aspects of one social media post
 	- - **grammar/style aware models**?
 	- - **stance/sentiment** extraction?
-	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} $$
+	- compute overall similarity score between LLM_FALSE and HUMAN_FALSE as something like: $$ S=w_{event}s_{event} + w_{style}s_{style}+w_{stance}s_{stance} + s_{{semantic}} $$
 ### 24.02
 - Write methodology pipeline: ✅
 	- Retrieval–reranking design ✅

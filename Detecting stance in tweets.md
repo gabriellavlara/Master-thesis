@@ -1,1 +1,0 @@
-[[detecting_stance_in_tweets.pdf]]
