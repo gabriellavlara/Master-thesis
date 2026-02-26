@@ -16,9 +16,8 @@ Sub-research questions:
 2. Establishing aselines
 - Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, would that be 22%?
 1. Isolating variables:
-
-- **How can I attribute changes to the general metrics (precision/recall) to individual components?**
- What factors drive my **precision** and **BERTScore**?
+I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — and can't identify what actually drives performance.
+- **How can I attribute changes to the general metrics (precision/recall/f1/BER) to individual components?**
 1.  Discuss Insights from ``05_evaluation.ipynb``
 2. How can I answer the question: what makes the LLM_FALSE similar to HUMAN_ posts? 
 I feel like this is a very subjective thing to evaluate, and it sis also really noisy as in this answer depends on prompt, on language model etc. I dont know how to have a "bigger picture" evaluation of that. 
