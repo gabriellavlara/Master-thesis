@@ -26,7 +26,7 @@ I’m currently varying too many experimental dimensions at once — LLM model, 
 1.  Qualitative analysis:
 - discuss results of ``05_evaluation.ipynb``
 - How can I answer the question: what makes the LLM_FALSE similar to HUMAN_ posts? 
-I feel like this is a very subjective thing to evaluate, and it sis also really noisy as in this answer depends on prompt, on language model etc. I dont know how to have a "bigger picture" evaluation of that. 
+I feel like this is a very subjective thing to evaluate, and it is also really noisy as in this answer depends on prompt, on language model etc. I dont know how to have a "bigger picture" evaluation of that. Should i just evaluate tone/syntax/log
 
  
 ## 17.01.26
