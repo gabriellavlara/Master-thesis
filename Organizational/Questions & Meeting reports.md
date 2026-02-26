@@ -21,7 +21,7 @@ I’m currently varying too many experimental dimensions at once — LLM model, 
 - How can I attribute changes to the general metrics (precision/recall/f1/BERTScore) to individual components?
 - Which variables should I focus on?
 **RQ1: Can LLMs be prompted to generate disinformation content that is semantically similar to human-authored ones?** --> focus on prompting techniques / language models and how they affect BERTScore and cosine similarity ((LLM generation step) )
-**RQ2: Can synthetic fakes serve as proxies for identifying false social media posts?** --> focus on separation of HUMAN_FALSE vs. HUMAN_TRUE and how that impacts precision/recall (((Semantic Representation step) ))
+**RQ2: Can synthetic fakes serve as proxies for identifying false social media posts?** --> focus on separation of HUMAN_FALSE vs. HUMAN_TRUE and how that impacts precision/recall (((Semantic Representation step?) ))
 
 1.  Discuss Insights from ``05_evaluation.ipynb``
 2. How can I answer the question: what makes the LLM_FALSE similar to HUMAN_ posts? 
