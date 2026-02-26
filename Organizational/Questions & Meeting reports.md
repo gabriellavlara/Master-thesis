@@ -13,7 +13,11 @@ Sub-research questions:
 1- Definitions of precision and recall:
 	Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step, or consider the thing as a whole?
 	What makes no sense to me is that my pipeline is basically mostly *precision-oriented*, since of course my corpus will have many more false posts, the variable im interested in is, from the amount of posts I explicitly stated I want to flag, how many are actually false? 
-2- Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, that would be 22% rig
+2- Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, that would be 22% right?
+3- **How can I isolate different parts of the pipeline**
+I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — which makes it hard to identify what actually drives performance 
+4- Discuss Insights from ``05_evaluation.ipynb``
+
  
 ## 17.01.26
 from 45 pages to 120; around 70.
