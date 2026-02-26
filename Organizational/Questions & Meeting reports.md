@@ -13,11 +13,12 @@ Sub-research questions:
 1. Definitions of precision and recall:
 	- Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step (precision at retrieval, precision at rerank), or consider on the end-to-end pipeline?
 	- My pipeline is mostly *precision-oriented*. Does it make sense to focus on that and explicitly state that in my thesis, that I would want to minimize "false positives" and increase precision? 
+	
 2. Establishing aselines
 - Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, would that be 22%?
 1. Isolating variables:
 I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — and can't identify what actually drives performance.
-- **How can I attribute changes to the general metrics (precision/recall/f1/BERTScore) to individual components?**
+- How can I attribute changes to the general metrics (precision/recall/f1/BERTScore) to individual components?
 - Which variables should I focus on?
 **RQ1: Can LLMs be prompted to generate disinformation content that is semantically similar to human-authored ones?** --> focus on prompting techniques and how they affect BERTScore
 **RQ2: Can synthetic fakes serve as proxies for identifying false social media posts?** --> focus on separation of HUMAN_FALSE vs. HUMAN_TRUE and how that impacts precision/recall
