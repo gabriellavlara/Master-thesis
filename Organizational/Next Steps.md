@@ -43,9 +43,6 @@
 - Improve evaluation script
     - per setup (embedding_model × metric × llm_model × promptID), compute summary table:
         - `n, mean, median, std, q25, q75`
-        - consider also `q90` _(tails are useful for thresholding)_
-        - compute separation helper:
-            - `delta_mean = mean(HUMAN_FALSE) - mean(HUMAN_TRUE)` _(simple, thesis-friendly)_
     - write `closeness_summary.csv` → thesis-like results table
 - Implement flagging + prediction metrics
     - implement flagging rules **per setup** (don’t mix prompts/models):
@@ -54,7 +51,7 @@
     - compute confusion matrix (choose evaluation labels):
         - treat `HUMAN_FALSE` as positive class
         - exclude or separately report `HUMAN_OTHER` _(decide and document)_
-    - compute and store:
+    - compute and store:✅
         - `precision, recall, F1`
         - also store `TP, FP, TN, FN` _(makes debugging easy)_
         - store `n_flagged` + `flag_rate` _(very useful for interpretation)_
