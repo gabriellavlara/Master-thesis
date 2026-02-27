@@ -12,9 +12,9 @@ Sub-research questions:
 ## 27.02.26
 1. Definitions of precision and recall:
 	- Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step (precision at retrieval, precision at rerank), or consider on the end-to-end pipeline?
-	V: for the whole pipeline
+	V: for the whole pipeline.
 	- My pipeline is mostly *precision-oriented*. Does it make sense to focus on that and explicitly state that in my thesis, that I would want to minimize "false positives" and increase precision? 
-
+	V: argument that based on usage --> so fact checkers. Could also do Fallunterscheidung when would i be more precision/recall
 2. Establishing baselines
 - Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, would that be 22%?
 3. Isolating variables:
