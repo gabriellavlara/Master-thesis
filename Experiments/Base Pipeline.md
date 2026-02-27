@@ -70,7 +70,7 @@ For embeddings:
 - Or the other way around: when querying with HUMAN_FALSE (real-life target), how often do top-k results come from LLM_FALSE vs. HUMAN_TRUE?
 # Problems & Improvements 
 - [x] Write a "status update" functionality for my generation code ✅ 2026-02-12
-- [ ] Also add eventID to the generation json maybe? or not, just store it on different names
+- [x] Also add eventID to the generation json maybe? or not, just store it on different names ✅ 2026-02-27
 - [x] Restructure the folders to have one probably called scripts/generate.py ✅ 2026-02-12
 - [x] Make sure the code accesses values of model_name, modelid etc via CONFIG file (best-practice and makes it easier to change and experiment with more things later!) ✅ 2026-02-12
 - [x] Set up a run or experiment number METADATA in generate_in_server.py (so that i can store the results for each experiment and compare them later) --> that will require changing the folder structure... f.e. results/runs/experiment1 and there storing the jsons with the result AND plots etc. (**Rule of thumb:** **if you can’t later answer “which exact code/config/data produced this file?”, it’s not a good artifact.**) ✅ 2026-02-12
