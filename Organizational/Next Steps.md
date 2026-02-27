@@ -4,7 +4,15 @@
 - task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
 - hypothesis: `LLM_FALSE` may currently overlap more strongly with `HUMAN_OTHER` due to stylistic/emotional similarity, and not claim-similarity
 - motivation: understand **if my retrieval system is based on topic similarity / stylistic similarity / discourse (stance/claim) type similarity **
-
+2. Introduce **claim-type-awareness** in my pipeline (fact vs. opinion)
+- task: introduce a mechanism to differentiate factual / verifiable claims VS. opininon/humor/comment --> intermediate step somewhere in my pipeline
+- new proxy based disinfo detection will consist of:
+a. retrieval of m candidates via cosine similarity
+b. claim-type filtering (retain only factual claims)
+c. reranking via BERTScore
+- some candidate approaches: pre-trained check-worthiness/claim detection model; LLM-as-a-judge
+1. Experimental validation plan:
+- task: rerun precision, recall, f1
 - Read papers Veronika sent me; read about other scoring techniques
 ### 27.02
 - Evaluate qualitatively WHAT makes the posts so similar to each other.
