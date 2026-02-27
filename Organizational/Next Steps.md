@@ -1,11 +1,16 @@
 # Next Steps (Breadcrumbs)
 ## 6.03
+1. Analyse class differences
+- task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
+- hypothesis: `LLM_FALSE` may currently overlap more strongly with `HUMAN_OTHER` due to stylistic/emotional similarity, and not claim-similarity
+- motivation: understand **if my retrieval system is based on topic similarity / stylistic similarity / discourse (stance/claim) type similarity **
+
+- Read papers Veronika sent me; read about other scoring techniques
 ### 27.02
 - Evaluate qualitatively WHAT makes the posts so similar to each other.
 	- Perform HUMAN-only analysis: identify linguistic differences between HUMAN_FALSE and HUMAN_TRUE (f.e. )
-- Read papers Veronika sent me; read about other scoring techniques
 
-### 24.02
+
 - Write methodology pipeline: ✅
 	- Retrieval–reranking design ✅
 	- Explanation of top-k evaluation
