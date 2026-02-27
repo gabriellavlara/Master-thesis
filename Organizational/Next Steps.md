@@ -7,6 +7,7 @@
 2. Introduce **claim-type-awareness** in my pipeline (fact vs. opinion)
 - task: introduce a mechanism to differentiate factual / verifiable claims VS. opininon/humor/comment --> intermediate step somewhere in my pipeline
 - new proxy based disinfo detection will consist of:
+- inform myself about VADER senti
 a. retrieval of m candidates via cosine similarity
 b. claim-type filtering (retain only factual claims)
 c. reranking via BERTScore
