@@ -34,9 +34,11 @@ V: in depth analysis for the best / most interesting set up.
 LLM- as-a-judge. Then ask 3 LLMs to go through it and judge.
 V: at which distribution of similarities? what classes of tokens were better at producing fakes? TF-IDF (then give that to chatgpt to create classes of tokens, like abstract nouns or entities etc. GIve it to them to generate these bigger signals. )
 - "false-positive" challenge with the HUMAN_OTHER category: most flagged posts are from this class, which makes sense because these posts have shared entities and shared sentiment/opinions. --> should i try to filter them out in the "retrieval" part, so before even running BERTScore? Or should i try to introduce a weighted similarity metric where i consider something like 
-V: try with some humour-detection or very small LLM. Framing "is it formulated as fact or opinion" try and find an LLM that helps
+V: try with some humour-detection or very small LLM. Framing "is it formulated as fact or opinion" try and find an LLM that helps? Is it presented as an OPINION or FACT? 
 4. Where should I write my limitations?
- 
+==V: limitations that i CANNOT overcome -> discussion
+V: limitations i CAN & have overcome -> limitations in methodology==
+ V: new dataset with american politics, Israel Palestine, Ukraine Russia. 
 ## 17.01.26
 from 45 pages to 120; around 70.
 1. how deep into detail for the implementation should i go? should i f.e. discuss my code setup, or is that too deep? Or should i just mention something like "further detail about the code structure can be found on the project's github page." --> answer: nr 2. 
