@@ -14,10 +14,10 @@ Sub-research questions:
 	- Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step (precision at retrieval, precision at rerank), or consider on the end-to-end pipeline?
 	V: for the whole pipeline.
 	- My pipeline is mostly *precision-oriented*. Does it make sense to focus on that and explicitly state that in my thesis, that I would want to minimize "false positives" and increase precision? 
-	V: argument that based on usage --> so fact checkers. Could also do Fallunterscheidung when would i be more precision/recall-oriented. Mention my methodology is precision oriented. I can still argue that some methods will have higher recursion 
+	V: argument that based on usage --> so fact checkers. Could also do Fallunterscheidung when would i be more precision/recall-oriented. Mention my methodology is precision oriented. I can still argue that some methods will have higher recursion than others. (explain this in the discussion!)
 2. Establishing baselines
-- Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, would that be 22%?
-3. Isolating variables:
+- Should I consider a "random guessing" baseline for comparison? And if yes, considering class imbalance, would that be 22%? V: okay
+1. Isolating variables:
 I’m currently varying too many experimental dimensions at once — LLM model, embeddings, prompting strategy, k/m values, similarity metrics — and can't identify what actually drives performance.
 V: Start tuning from the first thing --> 
 - How can I attribute changes to the general metrics (precision/recall/f1/BERTScore) to individual components?
@@ -30,7 +30,11 @@ V: this is the most important step
 - discuss results of ``05_evaluation.ipynb``
 - How can I answer the question: what makes the LLM_FALSE similar to HUMAN_ posts? 
 I feel like this is a very subjective thing to evaluate, and it is also really noisy as in this answer depends on prompt, on language model etc. I dont know how to have a "bigger picture" evaluation of that. Should i just evaluate tone/syntax/logic?
+V: in depth analysis for the best / most interesting set up.
+LLM- as-a-judge. Then ask 3 LLMs to go through it and judge.
+V: at which distribution of similarities? what classes of tokens were better at producing fakes? TF-IDF (then give that to chatgpt to create classes of tokens, like abstract nouns or entities etc. GIve it to them to generate these bigger signals. )
 - "false-positive" challenge with the HUMAN_OTHER category: most flagged posts are from this class, which makes sense because these posts have shared entities and shared sentiment/opinions. --> should i try to filter them out in the "retrieval" part, so before even running BERTScore? Or should i try to introduce a weighted similarity metric where i consider something like 
+V: try with some humour-detection or very small LLM. Framing "is it formulated as fact or opinion" try and find an LLM that helps
 4. Where should I write my limitations?
  
 ## 17.01.26
