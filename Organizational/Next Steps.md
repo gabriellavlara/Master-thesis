@@ -9,10 +9,10 @@
 - new proxy based disinfo detection will consist of:
 - inform myself about VADER sentiment analysis
 a. retrieval of m candidates via cosine similarity
-b. claim-type filtering (retain only factual claims)
+==b. claim-type filtering (retain only factual claims)==
 c. reranking via BERTScore
 - some candidate approaches: pre-trained check-worthiness/claim detection model; LLM-as-a-judge
-1. Experimental validation plan:
+3. Experimental validation plan:
 - task: rerun precision, recall, f1 for that and check if precision increased! 
 - Read papers Veronika sent me; read about other scoring techniques
 ### 27.02
