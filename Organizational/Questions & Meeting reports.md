@@ -9,6 +9,9 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 06.03.26
+1. Claim - detection:
+- Should i introduce claim detection in my pipeline as a **filter** or a **feature**. As in should i not even consider entries that were classified as OPINION/OTHER and only consider statements classified as FACT/CLAIM, or should i treat that as a signal and somehow aggregate different signals that I get - so f.e. the final score is a weighted sum of different signals, such as BERTScore for semantic alignment, and other scorers for sentimentalism / political stance
 ## 27.02.26
 1. Definitions of precision and recall:
 	- Considering I have a retrieve & rerank pipeline, should I compute precision and recall per step (precision at retrieval, precision at rerank), or consider on the end-to-end pipeline?

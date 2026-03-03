@@ -1,4 +1,4 @@
-# Next Steps (Breadcrumbs)
+7# Next Steps (Breadcrumbs)
 ## 6.03
 1. Analyse class differences
 - task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
@@ -7,7 +7,7 @@
 2. Introduce **claim-type-awareness** in my pipeline (fact vs. opinion)
 - task: introduce a mechanism to differentiate factual / verifiable claims VS. opininon/humor/comment --> intermediate step somewhere in my pipeline
 - new proxy based disinfo detection will consist of:
-- inform myself about VADER senti
+- inform myself about VADER sentiment analysis
 a. retrieval of m candidates via cosine similarity
 b. claim-type filtering (retain only factual claims)
 c. reranking via BERTScore
