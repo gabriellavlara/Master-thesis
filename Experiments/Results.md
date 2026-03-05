@@ -8,10 +8,18 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 
 *Results computed at k=___. Precision@k and Opinion Contamination Rate are averaged across all promptIDs (mean ± std).*
 
-| LLM      | Embeding   | k   | Claim detection | Precision@k | Mean BERTScore F1 | Opinion contamination rate |
-| -------- | ---------- | --- | --------------- | ----------- | ----------------- | -------------------------- |
-| DeepSeek | Gemma      |     | 0               |             |                   |                            |
-| DeepSeek | MPNET-base |     | 1               |             |                   |                            |
+| LLM      | Embeding | k   | Subjectivity threshold | Precision@k | Mean BERTScore F1 | Opinion contamination rate |
+| -------- | -------- | --- | ---------------------- | ----------- | ----------------- | -------------------------- |
+| DeepSeek | Gemma    | 50  | 0.5                    |             |                   |                            |
+| DeepSeek | Gemma    | 50  | 0.75                   |             |                   |                            |
+| DeepSeek | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |
+| GPT      | Gemma    | 50  | 0.5                    |             |                   |                            |
+| GPT      | Gemma    | 50  | 0.75                   |             |                   |                            |
+| GPT      | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |
+|          |          |     |                        |             |                   |                            |
+|          |          |     |                        |             |                   |                            |
+|          |          |     |                        |             |                   |                            |
+|          |          |     |                        |             |                   |                            |
 
 
 # What result techniques should i use?
