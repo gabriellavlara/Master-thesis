@@ -31,3 +31,7 @@ This is answered **by** the flagging pipeline, and is your main experimental res
 - **Opinion contamination rate** — shows the pipeline isn't just retrieving any similar post, but specifically false claims
 - **Label distribution of flagged posts** — what mix of TRUE/FALSE/OTHER gets flagged?
 - **Claim detection ablation** — shows that refining the pipeline further improves proxy quality
+
+RQ1 is a **prerequisite** for RQ2. The argument flows as:
+
+> _"LLMs can generate semantically similar disinformation (RQ1, shown by BERTScore/cosine), and because of this similarity, they can serve as proxies to surface false human posts (RQ2, shown by Precision@k)_
