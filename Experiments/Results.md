@@ -2,24 +2,24 @@
 Basically what this step did was use TextBlob to check the subjectivity of a 
 
 
-| LLM      | Embeding | k   | Subjectivity threshold | Precision@k | Mean BERTScore F1 | Opinion contamination rate | Recall@k |
-| -------- | -------- | --- | ---------------------- | ----------- | ----------------- | -------------------------- | -------- |
-| DeepSeek | Gemma    | 25  | 0.5                    | 0.233766    |                   |                            | 0.052786 |
-| DeepSeek | Gemma    | 25  | 0.75                   | 0.256198    |                   |                            | 0.047898 |
-| DeepSeek | Gemma    | 25  | 1 (no claim detection) | 0.261411    |                   |                            | 0.061584 |
-| GPT      | Gemma    | 25  | 0.5                    | 0.251208    |                   |                            | 0.050831 |
-| GPT      | Gemma    | 25  | 0.75                   | 0.207627    |                   |                            | 0.047898 |
-| GPT      | Gemma    | 25  | 1 (no claim detection) | 0.205021    |                   |                            | 0.047898 |
-|          |          |     |                        |             |                   |                            |          |
-|          |          |     |                        |             |                   |                            |          |
-| DeepSeek | Gemma    | 50  | 0.5                    | 0.280702    |                   |                            | 0.109482 |
-| DeepSeek | Gemma    | 50  | 0.75                   | 0.280093    |                   |                            | 0.118280 |
-| DeepSeek | Gemma    | 50  | 1 (no claim detection) | 0.269142    |                   |                            | 0.113392 |
-| GPT      | Gemma    | 50  | 0.5                    | 0.262873    |                   |                            | 0.094819 |
-| GPT      | Gemma    | 50  | 0.75                   | 0.248175    |                   |                            | 0.099707 |
-| GPT      | Gemma    | 50  | 1 (no claim detection) | 0.240196    |                   |                            | 0.095797 |
-|          |          |     |                        |             |                   |                            |          |
-|          |          |     |                        |             |                   |                            |          |
+| LLM      | Embeding | k   | Subjectivity threshold | Precision@k  | Mean BERTScore F1 | Opinion contamination rate | Recall@k |
+| -------- | -------- | --- | ---------------------- | ------------ | ----------------- | -------------------------- | -------- |
+| DeepSeek | Gemma    | 25  | 0.5                    | 0.233766     |                   |                            | 0.052786 |
+| DeepSeek | Gemma    | 25  | 0.75                   | 0.256198     |                   |                            | 0.047898 |
+| DeepSeek | Gemma    | 25  | 1 (no claim detection) | **0.261411** |                   |                            | 0.061584 |
+| GPT      | Gemma    | 25  | 0.5                    | **0.251208** |                   |                            | 0.050831 |
+| GPT      | Gemma    | 25  | 0.75                   | 0.207627     |                   |                            | 0.047898 |
+| GPT      | Gemma    | 25  | 1 (no claim detection) | 0.205021     |                   |                            | 0.047898 |
+|          |          |     |                        |              |                   |                            |          |
+|          |          |     |                        |              |                   |                            |          |
+| DeepSeek | Gemma    | 50  | 0.5                    | 0.280702     |                   |                            | 0.109482 |
+| DeepSeek | Gemma    | 50  | 0.75                   | **0.280093** |                   |                            | 0.118280 |
+| DeepSeek | Gemma    | 50  | 1 (no claim detection) | 0.269142     |                   |                            | 0.113392 |
+| GPT      | Gemma    | 50  | 0.5                    | **0.262873** |                   |                            | 0.094819 |
+| GPT      | Gemma    | 50  | 0.75                   | 0.248175     |                   |                            | 0.099707 |
+| GPT      | Gemma    | 50  | 1 (no claim detection) | 0.240196     |                   |                            | 0.095797 |
+|          |          |     |                        |              |                   |                            |          |
+|          |          |     |                        |              |                   |                            |          |
 
 
 # What result techniques should i use?
