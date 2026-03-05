@@ -8,18 +8,24 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 
 *Results computed at k=___. Precision@k and Opinion Contamination Rate are averaged across all promptIDs (mean ± std).*
 
-| LLM      | Embeding | k   | Subjectivity threshold | Precision@k | Mean BERTScore F1 | Opinion contamination rate |
-| -------- | -------- | --- | ---------------------- | ----------- | ----------------- | -------------------------- |
-| DeepSeek | Gemma    | 50  | 0.5                    |             |                   |                            |
-| DeepSeek | Gemma    | 50  | 0.75                   |             |                   |                            |
-| DeepSeek | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |
-| GPT      | Gemma    | 50  | 0.5                    |             |                   |                            |
-| GPT      | Gemma    | 50  | 0.75                   |             |                   |                            |
-| GPT      | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |
-|          |          |     |                        |             |                   |                            |
-|          |          |     |                        |             |                   |                            |
-|          |          |     |                        |             |                   |                            |
-|          |          |     |                        |             |                   |                            |
+| LLM      | Embeding | k   | Subjectivity threshold | Precision@k | Mean BERTScore F1 | Opinion contamination rate | Recall@k |
+| -------- | -------- | --- | ---------------------- | ----------- | ----------------- | -------------------------- | -------- |
+| DeepSeek | Gemma    | 25  | 0.5                    |             |                   |                            |          |
+| DeepSeek | Gemma    | 25  | 0.75                   | 0.256198    |                   |                            | 0.047898 |
+| DeepSeek | Gemma    | 25  | 1 (no claim detection) |             |                   |                            |          |
+| GPT      | Gemma    | 25  | 0.5                    |             |                   |                            |          |
+| GPT      | Gemma    | 25  | 0.75                   | 0.207627    |                   |                            | 0.047898 |
+| GPT      | Gemma    | 25  | 1 (no claim detection) |             |                   |                            |          |
+|          |          |     |                        |             |                   |                            |          |
+|          |          |     |                        |             |                   |                            |          |
+| DeepSeek | Gemma    | 50  | 0.5                    |             |                   |                            |          |
+| DeepSeek | Gemma    | 50  | 0.75                   | 0.280093    |                   |                            | 0.118280 |
+| DeepSeek | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |          |
+| GPT      | Gemma    | 50  | 0.5                    |             |                   |                            |          |
+| GPT      | Gemma    | 50  | 0.75                   | 0.248175    |                   |                            | 0.099707 |
+| GPT      | Gemma    | 50  | 1 (no claim detection) |             |                   |                            |          |
+|          |          |     |                        |             |                   |                            |          |
+|          |          |     |                        |             |                   |                            |          |
 
 
 # What result techniques should i use?
