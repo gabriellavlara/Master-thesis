@@ -1,4 +1,4 @@
-7# Next Steps (Breadcrumbs)
+# Next Steps (Breadcrumbs)
 ## 6.03
 1. Analyse class differences
 - task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
