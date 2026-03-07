@@ -1,12 +1,10 @@
 # Next Steps (Breadcrumbs)
 ## 13.03
-- Finish setting up Qwen, and set up Llama
+- Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."
+	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,8,9}
 	- Fix BERTSCore function; max tokens
 	- Add max character constraint to prompt
 	- Scale up to 20 generated instances per promptID
-- 
-- Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."
-	- test my pipeline with Qwen and Llama, using only prompts 6,,7,8,9 for now. 
 ## 6.03
 -  Analyse class differences
 	- task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
