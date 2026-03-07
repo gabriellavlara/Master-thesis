@@ -1,4 +1,12 @@
 # Next Steps (Breadcrumbs)
+## 13.03
+- Finish setting up Qwen, and set up Llama
+	- Fix BERTSCore function; max tokens
+	- Add max character constraint to prompt
+	- Scale up to 20 generated instances per promptID
+- 
+- Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."
+	- test my pipeline with Qwen and Llama, using only prompts 6,,7,8,9 for now. 
 ## 6.03
 -  Analyse class differences
 	- task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
@@ -12,8 +20,8 @@
 	==b. claim-type filtering (retain only factual claims)==
 	c. reranking via BERTScore
 	- some candidate approaches: pre-trained check-worthiness/claim detection model; LLM-as-a-judge
--  Experimental validation plan:
-- task: rerun precision, recall, f1 for that and check if precision increased! 
+-  Experimental validation plan: ✅
+	- task: rerun precision, recall, f1 for that and check if precision increased! 
 - Read papers Veronika sent me; read about other scoring techniques
 ### 27.02
 - Evaluate qualitatively WHAT makes the posts so similar to each other.
