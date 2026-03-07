@@ -27,6 +27,9 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 **the more safety-tuned a model is, the worse it performs as a fake generator for your framework**:
 - Hard blocks (Gemini)
 - Soft degradation of output quality (GPT)
+- GPT (even without explicit safety refusal) tends to produce more **neutral, balanced, journalistic** text by default — which would push embeddings closer to HUMAN_TRUE than HUMAN_FALSE
+- GPT may be **over-following** the article content, producing semantically faithful summaries with a fabricated claim tacked on, rather than fully disinfo-flavored posts
+- DeepSeek may have less "helpfulness" bias baked in, producing more raw, emotionally charged outputs that naturally align with HUMAN_FALSE style
 # What result techniques should i use?
 ## RQ1: Semantic similarity between LLM-generated and human-authored disinformation
 This is answered **before** the flagging pipeline — it's about the quality of LLM generation itself.
