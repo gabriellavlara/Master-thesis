@@ -1,3 +1,4 @@
+# Quantitative 
 1. Testing my pipeline without vs. with **claim-detection** step.
 Basically what this step did was use TextBlob to check the subjectivity of a 
 
@@ -21,7 +22,11 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 |          |          |     |                        |              |                   |                            |          |
 |          |          |     |                        |              |                   |                            |          |
 
-
+# Qualitative
+1. Gemini was excluded as a generator:  Even with safety settings turned off (so HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE, HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE), it still failed in generating complete Tweets. This is consistent to gemini's safety alignment, 
+**the more safety-tuned a model is, the worse it performs as a fake generator for your framework**:
+- Hard blocks (Gemini)
+- Soft degradation of output quality (GPT)
 # What result techniques should i use?
 ## RQ1: Semantic similarity between LLM-generated and human-authored disinformation
 This is answered **before** the flagging pipeline — it's about the quality of LLM generation itself.
