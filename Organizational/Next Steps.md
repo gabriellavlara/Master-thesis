@@ -12,7 +12,7 @@
 	==b. claim-type filtering (retain only factual claims)==
 	c. reranking via BERTScore
 	- some candidate approaches: pre-trained check-worthiness/claim detection model; LLM-as-a-judge
-3. Experimental validation plan:
+-  Experimental validation plan:
 - task: rerun precision, recall, f1 for that and check if precision increased! 
 - Read papers Veronika sent me; read about other scoring techniques
 ### 27.02
