@@ -9,6 +9,9 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 13.03.26
+- Confirm that it's okay to proceed with Gemma only as an embedding model
+- Get her opinion whether n=1 generation per combination is enough, or i should be running with more for more variability
 ## 06.03.26
 1. Claim - detection:
 - Should i introduce claim detection in my pipeline as a **filter** or a **feature**. As in should i not even consider entries that were classified as OPINION/OTHER and only consider statements classified as FACT/CLAIM, or should i treat that as a signal and somehow aggregate different signals that I get - so f.e. the final score is a weighted sum of different signals, such as BERTScore for semantic alignment, and other scorers for sentimentalism / political stance? --> introduce it as a filter, but also experiment without _OTHER_ category at all.

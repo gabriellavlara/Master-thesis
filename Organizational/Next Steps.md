@@ -8,6 +8,7 @@
 - Write in the methodology a bit more about limitations and design choices i chose.
 	- News article;
 	- Prompting techniques i have tried and what i found out
+- Finish notebook to RQ1 and do notebook for RQ2
 ## 6.03
 -  Analyse class differences
 	- task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
