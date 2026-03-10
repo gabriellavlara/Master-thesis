@@ -23,19 +23,27 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 |          |          |     |                        |              |                   |                            |          |
 
 # Qualitative
-1. Gemini was excluded as a generator:  Even with safety settings turned off (so HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE, HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE), it still failed in generating complete Tweets. This is consistent to gemini's safety alignment, 
+###  Gemini was excluded as a generator:  
+Even with safety settings turned off (so HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE, HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE), it still failed in generating complete Tweets. This is consistent to gemini's safety alignment, 
 **the more safety-tuned a model is, the worse it performs as a fake generator for your framework**:
 - Hard blocks (Gemini)
 - Soft degradation of output quality (GPT)
 - GPT (even without explicit safety refusal) tends to produce more **neutral, balanced, journalistic** text by default — which would push embeddings closer to HUMAN_TRUE than HUMAN_FALSE
 - GPT may be **over-following** the article content, producing semantically faithful summaries with a fabricated claim tacked on, rather than fully disinfo-flavored posts
 - DeepSeek may have less "helpfulness" bias baked in, producing more raw, emotionally charged outputs that naturally align with HUMAN_FALSE style
-1. DeepSeek generations exhibit higher overall scores (BERTScore and cosine similarity) between (LLM_FALSE, HUMAN_FALSE) than (LLM_FALSE, HUMAN_TRUE/OTHER). And it makes it in a way that could potentially be separable/used as a threshold. ==this is only valid for promptID=6**
+### DeepSeek generations exhibit higher overall scores 
+(BERTScore and cosine similarity) between (LLM_FALSE, HUMAN_FALSE) than (LLM_FALSE, HUMAN_TRUE/OTHER). And it makes it in a way that could potentially be separable/used as a threshold. ==this is only valid for promptID=6**
 
 - observed result for LLM=DeepSeek, embedding = Gemma
-![[Pasted image 20260310102059.png]]
+![[promptID=6_llm=deepseek_embedding=gemma.png]]
 But that CANNOT be observed for GPT. result for LLM=GPT, embedding = Gemma
-![[Pasted image 20260310102136.png]]
+![[promptID=6_llm=gpt_embedding=gemma.png]]
+### Different LLMs need different levels of prompt specificity to approximate stylistic/linguistic properties of human-authored disinformaiton
+_different LLMs require different levels of prompt specificity to approximate the stylistic and linguistic properties of human-authored disinformation._ GPT defaults to a journalistic register unless explicitly constrained, while DeepSeek drifts toward opinion/humor framing. That's a substantive contribution about the **generative capacities** of LLMs — which is literally your thesis title.
+**analysis table:**
+- Mean subjectivity score per LLM per promptID
+- Compared against mean subjectivity of HUMAN_FALSE as a target baseline
+- Shown across your embedding similarity results
 # What result techniques should i use?
 ## RQ1: Semantic similarity between LLM-generated and human-authored disinformation
 This is answered **before** the flagging pipeline — it's about the quality of LLM generation itself.
