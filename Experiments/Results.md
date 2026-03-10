@@ -30,6 +30,12 @@ Basically what this step did was use TextBlob to check the subjectivity of a
 - GPT (even without explicit safety refusal) tends to produce more **neutral, balanced, journalistic** text by default — which would push embeddings closer to HUMAN_TRUE than HUMAN_FALSE
 - GPT may be **over-following** the article content, producing semantically faithful summaries with a fabricated claim tacked on, rather than fully disinfo-flavored posts
 - DeepSeek may have less "helpfulness" bias baked in, producing more raw, emotionally charged outputs that naturally align with HUMAN_FALSE style
+1. DeepSeek generations exhibit higher overall scores (BERTScore and cosine similarity) between (LLM_FALSE, HUMAN_FALSE) than (LLM_FALSE, HUMAN_TRUE/OTHER). And it makes it in a way that could potentially be separable/used as a threshold. ==this is only valid for promptID=6**
+
+- observed result for LLM=DeepSeek, embedding = Gemma
+![[Pasted image 20260310102059.png]]
+But that CANNOT be observed for GPT. result for LLM=GPT, embedding = Gemma
+![[Pasted image 20260310102136.png]]
 # What result techniques should i use?
 ## RQ1: Semantic similarity between LLM-generated and human-authored disinformation
 This is answered **before** the flagging pipeline — it's about the quality of LLM generation itself.
