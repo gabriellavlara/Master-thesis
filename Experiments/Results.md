@@ -65,3 +65,5 @@ This is answered **by** the flagging pipeline, and is your main experimental res
 RQ1 is a **prerequisite** for RQ2. The argument flows as:
 
 > _"LLMs can generate semantically similar disinformation (RQ1, shown by BERTScore/cosine), and because of this similarity, they can serve as proxies to surface false human posts (RQ2, shown by Precision@k)_
+
+Not only "can synthetic fakes serve as proxies" but "under what conditions and for which misinformation types."
