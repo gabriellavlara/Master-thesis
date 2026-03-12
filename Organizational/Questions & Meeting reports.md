@@ -15,6 +15,7 @@ Sub-research questions:
 - Regarding Gemini: during experimental runs, Gemini blocked many generation attemps - even after disabling safety filters. Probably because the prompts explicitly reference terms like 'fabrication' or 'misinformation claims'. how should i proceed?
 	- 1. Keep the prompts as they are and exclude Gemini from the comparison, mentioning this limitation regarding model safety constraints and Google's policy
 	- 2. Create gemini-specific prompt variants that reframe the task and misinformation style without trigger words
+- 
 ## 06.03.26
 1. Claim - detection:
 - Should i introduce claim detection in my pipeline as a **filter** or a **feature**. As in should i not even consider entries that were classified as OPINION/OTHER and only consider statements classified as FACT/CLAIM, or should i treat that as a signal and somehow aggregate different signals that I get - so f.e. the final score is a weighted sum of different signals, such as BERTScore for semantic alignment, and other scorers for sentimentalism / political stance? --> introduce it as a filter, but also experiment without _OTHER_ category at all.
