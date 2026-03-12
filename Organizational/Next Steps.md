@@ -1,7 +1,7 @@
 # Next Steps (Breadcrumbs)
 ## 13.03
 - Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."
-	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,8,9}
+	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,9, 10}
 	- Fix BERTSCore function; max tokens
 	- Add max character constraint to prompt
 	- Scale up to 20 generated instances per promptID
