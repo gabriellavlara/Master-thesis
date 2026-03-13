@@ -13,7 +13,8 @@ Sub-research questions:
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
 	- 3-5 tests per prompt.
-	- entity framing centered prompt
+	- entity framing centered prompt (hero/villain)
+	- conspiracy theory
 	- propaganda techniques 
 - Regarding Gemini: during experimental runs, Gemini blocked many generation attemps - even after disabling safety filters. Probably because the prompts explicitly reference terms like 'fabrication' or 'misinformation claims'. how should i proceed?
 	- 1. Keep the prompts as they are and exclude Gemini from the comparison, mentioning this limitation regarding model safety constraints and Google's policy
