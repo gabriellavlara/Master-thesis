@@ -67,3 +67,5 @@ RQ1 is a **prerequisite** for RQ2. The argument flows as:
 > _"LLMs can generate semantically similar disinformation (RQ1, shown by BERTScore/cosine), and because of this similarity, they can serve as proxies to surface false human posts (RQ2, shown by Precision@k)_
 
 Not only "can synthetic fakes serve as proxies" but "under what conditions and for which misinformation types."
+
+While the pipeline was not designed as a classifier, the retrieval results show a tendency to flag posts that are opinionated, conspiratorial, or potentially misleading, suggesting that semantic similarity to LLM-generated disinformation narratives acts as a weak proxy for harmful content.
