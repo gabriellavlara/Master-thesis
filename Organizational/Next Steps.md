@@ -1,15 +1,17 @@
 # Next Steps (Breadcrumbs)
+## 20.03
+
 ## 13.03
 - ==Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit.==
-- Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."
-	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,9, 10}
-	- Fix BERTSCore function; max tokens
-	- Add max character constraint to prompt
+- Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."✅
+	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,9, 10} ✅
+	- Fix BERTSCore function; max tokens ✅
+	- Add max character constraint to prompt ✅
 	- Scale up to 20 generated instances per promptID
 - Write in the methodology a bit more about limitations and design choices i chose.
 	- News article;
 	- Prompting techniques i have tried and what i found out
-- Finish notebook to RQ1 and do notebook for RQ2
+- Finish notebook to RQ1 and do notebook for RQ2 ✅
 ## 6.03
 -  Analyse class differences
 	- task: run TF/IDF to capture most characteristic terms per class; measure overlap between (HUMAN_FALSE, LLM_FALSE) and (HUMAN_OTHER, LLM_FALSE).
