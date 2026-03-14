@@ -13,7 +13,7 @@
 	- **conspiracy theory**
 	- **propaganda techniques** 
 ## 13.03
-- URGENTTTTTT: ==Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit.==
+- URGENTTTTTT: Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit. ✅
 - Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."✅
 	- Finish setting up Qwen, and set up Llama with promptIDs= {6,7,9, 10} ✅
 	- Fix BERTSCore function; max tokens ✅
