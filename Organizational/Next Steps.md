@@ -6,7 +6,7 @@
 	- generate a general metric averaged across all runs:
 		- **precision@k = mean_precision@k +- std_precision@k**
 	- check if results are STABLE across runs
-- **Mann-Whitney U test for RQ1**
+- **Mann-Whitney U test for RQ1** 
 - **Chi-square test for RQ2** ✅
 - Test other prompt variations:
 	-  **entity framing centered prompt (hero/villain)**
