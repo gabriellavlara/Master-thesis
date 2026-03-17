@@ -5,7 +5,7 @@
 	- **conspiracy theory**
 	- **propaganda techniques** 
 	- NotebookLM the three papers on propaganda before prompting under "propaganda"
-- Test BLEURT and MoverScore as further metrics for semantic similarity
+- (*bonus*)Test BLEURT and MoverScore as further metrics for semantic similarity 
 	- BLEURT: regression metric fine tuned on human judgment
 	- MoverScore: embedding metric that captures similarity despite different sentence structures (captures paraphrases etc.)
 -  Compute full run of the pipeline 10 times per experimental setup (LLM, promptID, embedding models, flagging technique)
@@ -16,9 +16,8 @@
 ## 20.03
 - **Mann-Whitney U test for RQ1** 
 - **Chi-square test for RQ2** ✅
-- ==**Human vs. LLM semantic alignment**==
+- ==**Human vs. LLM semantic alignment**== 
 - ==Add nDCG@k as metric== --> are false posts ranked higher overall
-
 
 ## 13.03
 - URGENTTTTTT: Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit. ✅
