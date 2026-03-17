@@ -1,17 +1,23 @@
 # Next Steps (Breadcrumbs)
 ## 20.03
 
-- Compute full run of the pipeline 10 times per experimental setup (LLM, promptID, embedding models, flagging technique)
-	- compute each metric once
-	- generate a general metric averaged across all runs:
-		- **precision@k = mean_precision@k +- std_precision@k**
-	- check if results are STABLE across runs
+-
 - **Mann-Whitney U test for RQ1** 
 - **Chi-square test for RQ2** ✅
+- ==Add nDCG@k as metric== --> are false posts ranked higher overall
 - Test other prompt variations:
 	-  **entity framing centered prompt (hero/villain)**
 	- **conspiracy theory**
 	- **propaganda techniques** 
+	- NotebookLM the three papers on propaganda before prompting under "propaganda"
+- Test BLEURT and MoverScore as further metrics for semantic similarity
+	- BLEURT: regression metric fine tuned on human judgment
+	- MoverScore: embedding metric that captures similarity despite different sentence structures (captures paraphrases etc.)
+-  Compute full run of the pipeline 10 times per experimental setup (LLM, promptID, embedding models, flagging technique)
+	- compute each metric once
+	- generate a general metric averaged across all runs:
+		- **precision@k = mean_precision@k +- std_precision@k**
+	- check if results are STABLE across runs
 ## 13.03
 - URGENTTTTTT: Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit. ✅
 - Test the following hypothesis: "safety alignment inversely correlates with semantic fidelity to human disinfo."✅
