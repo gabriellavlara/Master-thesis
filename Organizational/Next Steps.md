@@ -5,7 +5,8 @@
 	- **conspiracy theory**
 	- **propaganda techniques** 
 	- NotebookLM the three papers on propaganda before prompting under "propaganda"
-- (*bonus*)Test BLEURT and MoverScore as further metrics for semantic similarity 
+-  Test BLEURT and MoverScore as further metrics for semantic similarity 
+	- (*bonus*: optional robustness checks)
 	- BLEURT: regression metric fine tuned on human judgment
 	- MoverScore: embedding metric that captures similarity despite different sentence structures (captures paraphrases etc.)
 -  Compute full run of the pipeline 10 times per experimental setup (LLM, promptID, embedding models, flagging technique)
