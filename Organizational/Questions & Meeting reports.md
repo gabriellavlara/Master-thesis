@@ -10,7 +10,10 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 20.03.26
-- Did i formulate the hypothesis test for **RQ2**? 
+- Did i formulate the hypothesis test for the statistical test? Go over them
+- What makes the most sense: top-k or top-x%? Or even something else for flagging? 
+	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
+	- @x% is useful for relative comparisons across datasets of different sizes.
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
