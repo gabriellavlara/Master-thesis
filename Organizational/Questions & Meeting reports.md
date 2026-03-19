@@ -14,6 +14,7 @@ Sub-research questions:
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
 	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
 	- @x% is useful for relative comparisons across datasets of different sizes.
+- Do i need formulas in the paper?
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
