@@ -14,9 +14,9 @@ TURBO_USER=gabriella
 | RAM      | 125 GiB | 3.2 GiB | 116 GiB | 122 GiB   |
 | Swap     | 8.0 GiB | 0 B     | 8.0 GiB | —         |
 ### GPU
-|GPU ID|Model|VRAM (Total)|VRAM (Used)|Driver|CUDA|
-|---|---|---|---|---|---|
-|0|NVIDIA RTX 6000 Ada Generation|49,140 MiB (~48 GB)|38 MiB|580.65.06|13.0|
+| GPU ID | Model                          | VRAM (Total)        | VRAM (Used) | Driver    | CUDA |
+| ------ | ------------------------------ | ------------------- | ----------- | --------- | ---- |
+| 0      | NVIDIA RTX 6000 Ada Generation | 49,140 MiB (~48 GB) | 38 MiB      | 580.65.06 | 13.0 |
 
 ##  USEFUL COMMANDS 
 - ssh username@host # access the host
