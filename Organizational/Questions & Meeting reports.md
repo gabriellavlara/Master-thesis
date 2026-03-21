@@ -18,7 +18,8 @@ Sub-research questions:
 - About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
-	- are they related to the same event
+	- are they related to the same event?
+	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
