@@ -71,6 +71,7 @@ WHERE contains(file.tags, "fact-checking")
 - [[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]] - fake news detection using sentence embedding models
 - ==[[EACL_2026___Confirmation_Bias.pdf]]== - 
 - ==[[2024.naacl-demo.8.pdf]]== - Existing biases in instruction-tuned LLMs
+- ==[[prompting_survey.pdf]] - overview over all prompting t
 
 ```dataview
 LIST
