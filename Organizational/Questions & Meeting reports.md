@@ -14,7 +14,9 @@ Sub-research questions:
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
 	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
 	- @x% is useful for relative comparisons across datasets of different sizes.
-- Do i need formulas in the paper?
+- Should i mention the original ideas i had, and why they didnt work in the implementation?
+	- F.e. threshold-based flagging. 
+- Do i need formulas in the paper? --> NO
 - About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
