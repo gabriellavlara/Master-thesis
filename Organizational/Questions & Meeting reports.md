@@ -20,7 +20,6 @@ Sub-research questions:
 	- HUMAN_TRUE: 0
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
-- Do i need formulas in the paper? --> NO
 - About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
