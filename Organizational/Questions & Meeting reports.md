@@ -14,6 +14,10 @@ Sub-research questions:
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
 	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
 	- @x% is useful for relative comparisons across datasets of different sizes.
+- I implemented nDCG @ k and planned on scoring this way:
+	- HUMAN_FALSE in the top-k: 3
+	- HUMAN_OTHER: 1
+	- HUMAN_TRUE: 0
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
 - Do i need formulas in the paper? --> NO
@@ -22,7 +26,8 @@ Sub-research questions:
 	- are they from the same social media?
 	- are they related to the same event?
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
-- Regarding ethics thing: do i need to write anything / contact anyone from TU about that
+- Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
+- Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 

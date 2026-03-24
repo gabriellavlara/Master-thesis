@@ -18,9 +18,9 @@
 ## 20.03
 - **Mann-Whitney U test for RQ1** 
 - **Chi-square test for RQ2** ✅
-- ==**Human vs. LLM semantic alignment**== 
-- ==Add nDCG@k as metric== --> are false posts ranked higher overall
-- Write baseline of the results section :)
+- ==**Human vs. LLM semantic alignment**==: compare human and llm false posts to a human_false_centroid 
+- ==Add nDCG@k as supporting metric== --> are false posts ranked higher overall  ✅
+- Write baseline of the results section :)  ✅
 
 ## 13.03
 - URGENTTTTTT: Complete Gemini 2.5 Flash generations by rerunning the 5 missing combinations (articleID=9 for all 4 promptIDs, and articleID=8 for promptID=10) after the daily quota resets, with a 12-second delay between API calls to avoid hitting the RPM limit. ✅
