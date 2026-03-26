@@ -6,19 +6,20 @@
 	- **conspiracy theory**
 	- **propaganda techniques** 
 	- NotebookLM the three papers on propaganda before prompting under "propaganda"
--  Test BLEURT and MoverScore as further metrics for semantic similarity 
+-  Test BLEURT and MoverScore as further metrics for semantic similarity 🤔
+	- to which RQ does it support most? I can say it is a complementary metric for RQ1 mb? 
 	- (*bonus*: optional robustness checks), otherwise just mention it as future work. 
-	- BLEURT: regression metric fine tuned on human judgment
+	- BLEURT: regression metric fine tuned on human judgment 
 	- MoverScore: embedding metric that captures similarity despite different sentence structures (captures paraphrases etc.)
 -  Compute full run of the pipeline 10 times per experimental setup (LLM, promptID, embedding models, flagging technique)
 	- compute each metric once
 	- generate a general metric averaged across all runs:
 		- **precision@k = mean_precision@k +- std_precision@k**
 	- check if results are STABLE across runs
+- **Mann-Whitney U test for RQ1** --> can only do that after i have generated MORE instances of false posts per llm
+- ==**Human vs. LLM semantic alignment**==: compare human and llm false posts to a human_false_centroid --> can only do that after i have generated MORE instances of false posts per llm
 ## 20.03
-- **Mann-Whitney U test for RQ1** 
 - **Chi-square test for RQ2** ✅
-- ==**Human vs. LLM semantic alignment**==: compare human and llm false posts to a human_false_centroid 
 - ==Add nDCG@k as supporting metric== --> are false posts ranked higher overall  ✅
 - Write baseline of the results section :)  ✅
 

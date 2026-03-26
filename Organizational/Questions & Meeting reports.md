@@ -27,6 +27,7 @@ Sub-research questions:
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
 - Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
 - Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
+- Should i have a future work and limitations section together or sepa
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
