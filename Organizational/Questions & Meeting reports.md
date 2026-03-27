@@ -9,8 +9,15 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+
+## Meeting with Max
+
 ## 10.04.26
-- 
+- - About the curated dataset:
+	- i know they are very recent events 
+	- are they from the same social media?
+	- are they related to the same event?
+	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 	- before U test, do something else (forgot the name)
@@ -35,13 +42,8 @@ Sub-research questions:
 	- V: concerning generated set, it is available upon request!! 
 - Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
 - Should i have a future work and limitations section together or separately?
-	- V:l in results, we just show results but do not analyze them. In discussion, say what it means and how to analyze it. What happened / what can be explanation of things that didnt work out? Have an "impact" session in discussion. 
+	- V:l in results, we just show results but do not analyze them. In discussion, say what it means and how to analyze it. What happened / what can be explanation of things that didnt work out? Have an "impact" session in discussion. And come back to the research question. 
 	- V: limitations: what i know certainly didnt work. Future work can go in conclusion. 
-- About the curated dataset:
-	- i know they are very recent events 
-	- are they from the same social media?
-	- are they related to the same event?
-	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
 
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
