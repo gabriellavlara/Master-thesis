@@ -10,6 +10,7 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 10.04.26
+- 
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
@@ -21,14 +22,15 @@ Sub-research questions:
 	- HUMAN_TRUE: 0
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
+- Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
+- Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
+- Should i have a future work and limitations section together or separately?
 - About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
 	- are they related to the same event?
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
-- Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
-- Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
-- Should i have a future work and limitations section together or separately?
+
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
