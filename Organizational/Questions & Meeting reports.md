@@ -24,7 +24,7 @@ Sub-research questions:
 	- HUMAN_FALSE in the top-k: 3
 	- HUMAN_OTHER: 1
 	- HUMAN_TRUE: 0
-	- V: popular to introduce with a reranker. 
+	- V: popular to introduce with a **reranker**. 
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
 - Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
