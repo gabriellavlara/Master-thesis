@@ -9,6 +9,7 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 10.04.26
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
