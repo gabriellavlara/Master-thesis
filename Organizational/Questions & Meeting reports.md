@@ -14,14 +14,17 @@ Sub-research questions:
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 	- before U test, do something else (forgot the name)
+	- baseline: weighted random sampling/ prediction majority vote (what would be there if we always predicted )
 	- even simpler: Chi-square between baseline performance and built system 
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
 	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
 	- @x% is useful for relative comparisons across datasets of different sizes.
+	- V: threshold on distance til the best case. And just choose one model. 
 - I implemented nDCG @ k and planned on scoring this way:
 	- HUMAN_FALSE in the top-k: 3
 	- HUMAN_OTHER: 1
 	- HUMAN_TRUE: 0
+	- V: popular to introduce with a reranker. 
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
 - Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
