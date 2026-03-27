@@ -27,7 +27,7 @@ Sub-research questions:
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
 - Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
 - Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
-- Should i have a future work and limitations section together or sepa
+- Should i have a future work and limitations section together or separately?
 ## 13.03.26
 - Confirm that it's okay to proceed with Gemma only as an embedding model --> MPNET-base produced bad results
 - Is n=1 generation per combination is enough, or should I be running with more for more variability? 
@@ -112,9 +112,6 @@ Start with proprietary models and then go with open-models. Test f.e. with anoth
 Option 1: test how close open source model is ; use LLM as a judge to validate --> same LLM has preferences for its own outputs (kind of self critique)
 
 200$ credential for free for Azure cloud. --> link sent on whatsapp 
-
-### 28.11.25
-
 
 ### 21.11.25
 1. I've sent the email

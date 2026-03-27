@@ -50,7 +50,7 @@
 -  Experimental validation plan: ✅
 	- task: rerun precision, recall, f1 for that and check if precision increased! 
 - Read papers Veronika sent me; read about other scoring techniques
-### 27.02
+## 27.02
 - Evaluate qualitatively WHAT makes the posts so similar to each other.
 	- Perform HUMAN-only analysis: identify linguistic differences between HUMAN_FALSE and HUMAN_TRUE (f.e. )
 
@@ -66,7 +66,7 @@
 	- create **run_summaries.parquet**
 	- produce base plots with stats like bertscore and cosine similarity for each combination of models
 - Change S-BERT to another model (RoBERTa or MPNET) ✅
-### 13.02.26
+## 13.02.26
 - **==RETRIEVE & RERANK PIPELINE==**: first filter based on cosine similarity (f.e. threshhold would be similarity > 0.5), then compute BERTScore for all remaining entries. ✅
 	- Why? BERTScore is way more computationally expensive
 	- Also makes sense to remove completely misaligned (f.e. topic misaligned) values from the comparison
@@ -105,7 +105,7 @@
     - save as `flagging_metrics.csv`
     - note in thesis: metrics may be poor initially → use as motivation for next prompt iteration
     
-### 3.02.26
+## 3.02.26
 - update slides with new dataset 
 	- find out how to extract more "general" conclusions from the results? Even if intermediate --> **results table that evaluate per experimental setup ;)**
 	- create wizmap maybe?
@@ -117,7 +117,7 @@
 		- **fabrication, false attribution, inaccurate numerical quantities, misrepresentation**)-> from paper fighting fire w fire 
 		- **Style-based, content-based, information-blending, story-based** —> from Megafake paper 
 	
-### 30.01.26
+## 30.01.26
 - apply PCA before UMAP -> to denoise (apparently that's best practice)
 - Inform myself about other embedding models: --> make a table with (what they capture, typical models, known limitations on short texts (tweets))
     - _Event / semantic embeddings_ --> [[sentence-bert.pdf]] ✅[[Its_All_in_the_Embedding_Fake_News_Detection_Usin.pdf]] ✅
@@ -125,7 +125,7 @@
     - _Stance / sentiment embeddings_ --> [[detecting_stance_in_tweets.pdf]]
 - Write a bit in the methodology page on overleaf 
 
-### 24.01.26
+## 24.01.26
 - Implement embedding storage ✅
 - write these steps as functions in a .py file, and then have them all be easily run in src/embedding.py file. ✅
 - Prepare some slides on the parts of the pipeline i've implemented until now, problems i've encountered and what could be observed (VERY PREMILINARY) 
@@ -142,7 +142,7 @@
 	- *Which prompts generate the most human-alike posts?*  
 	- link human evaluation of prompts to actual embedding results (Check if my perceived human_likeness equals to avg_sim_to_human_posts)
 	- deliverable: 04_results_inspection.ipynb
-### 9.01.26
+## 9.01.26
 - **Evaluate first results of the generations (sanity check)**
 1. Manual inspection: ✅
 	Sample 15-20 instances and see if
@@ -168,12 +168,12 @@
 	- **Basic formatting stats** (hashtags, mentions, URLs count; optional)
 - Run basic analytics for the evaluation metrics of the first 75 generated instances. 
 	- Might be interesting to know: which prompt generated the best result (with the highest overall score)? Which prompt generated the most tweet-like and/or human-like entry?
-- ==**Implement embeddings step **== ✅
+- ==**Implement embeddings step**== ✅
 
 - Start experimenting in the MTEC server. Access information can be found in .env file
 -  Restructure pipeline into 5 steps? Check [[Methodology-pipeline.canvas|Methodology-pipeline]]
 
-### 15.12.25
+## 15.12.25
 1. Auto save in LIST OF DICTS whenever i call run_llm function --> waaay more efficient ✅
 2. Decide how to store information if ONE prompt generates TWO tweets -> should each be stored in a diff row? Yes, if possible. ✅
 3. Write AUTO SAVING in jsonl files to make sure info is not lost even after kernel is disconnected --> or parquet files ✅
@@ -188,7 +188,7 @@ Number of character diff, semantic similarity
 Define "disinformation"-traits (f.e. numerical fabrication, change in associated people)
 
   
-### 05.12.25
+## 05.12.25
 - Set up a config file with the API keys: ✅
 	- ChatGPT:
 		- Provider: openAI
@@ -221,7 +221,7 @@ Define "disinformation"-traits (f.e. numerical fabrication, change in associated
 - Set up account on Azure Cloud or Google cloud (free TPU usage. Do i even need it?)
 - Mini-evaluation of instruction-tuned vs. base models:
 	- pick 10-15 generated examples by each and compare based on tweet likeness, factuality, creativity
-### 28.11.2025
+## 28.11.2025
 - Properly store news_articles as a DF. It should contain: ✅
 	- event_id
 	- newsarticle_id
