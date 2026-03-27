@@ -27,9 +27,16 @@ Sub-research questions:
 	- V: popular to introduce with a **reranker**. 
 - Should i mention the original ideas i had, and why they didnt work in the implementation?
 	- F.e. threshold-based flagging. 
+	- V: okay. 
 - Regarding ethics thing: do i need to write anything / contact anyone from TU about that? 
+	- V: self-assessment form that Veronika would do for my project
+	- V: integrate in my discussion section
+	- V: not post the prompts on github, but say they are available upon request. 
+	- V: concerning generated set, it is available upon request!! 
 - Should i show examples of posts (TRUE/FALSE/OTHER)? And of generated instances? how t navigate that considering ethical rules blablabla? 
 - Should i have a future work and limitations section together or separately?
+	- V:l in results, we just show results but do not analyze them. In discussion, say what it means and how to analyze it. What happened / what can be explanation of things that didnt work out? Have an "impact" session in discussion. 
+	- V: limitations: what i know certainly didnt work. Future work can go in conclusion. 
 - About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
