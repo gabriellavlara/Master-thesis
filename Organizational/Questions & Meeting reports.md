@@ -13,6 +13,8 @@ Sub-research questions:
 - 
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
+	- before U test, do something else (forgot the name)
+	- even simpler: Chi-square between baseline performance and built system 
 - What makes the most sense: top-k or top-x%? Or even something else for flagging? 
 	- @k is useful for fixed-budget scenarios (e.g. "a human can review 50 posts per day")
 	- @x% is useful for relative comparisons across datasets of different sizes.
