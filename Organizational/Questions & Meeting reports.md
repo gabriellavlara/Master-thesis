@@ -13,7 +13,7 @@ Sub-research questions:
 ## Meeting with Max
 
 ## 10.04.26
-- - About the curated dataset:
+-  About the curated dataset:
 	- i know they are very recent events 
 	- are they from the same social media?
 	- are they related to the same event?
