@@ -18,6 +18,7 @@ Sub-research questions:
 	- are they from the same social media?
 	- are they related to the same event?
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
+- Ask about the centroid idea. How feasible is i
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 	- before U test, do something else (forgot the name)
