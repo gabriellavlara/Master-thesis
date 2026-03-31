@@ -23,10 +23,11 @@ a. Is the retrieval & rerank idea (retrieve using cosine similarity, rerank usin
 b. How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
 	 - One idea: instead of generating multiple proxies with the same "generic" persona, I could use different personas and see flagging consistency (so if a post had high bertscores with multiple prompts, then evaluate it differently?)
 c. One thing I’m struggling with is how to define what ‘flagging’ actually means in this setup.
-	
 - What flagging technique makes sense in such a context? Should i use top-k as an absolute number, or make it threshold based, or top-X% percentile (for instance top-5%)? Or sampling consistency (if a post is flagged as false/harmful across multiple runs
-- Right now I’m considering top-k, top-percentile, or threshold-based approaches — but all of them seem quite sensitive to the model and prompt.”
-
+- Right now I’m considering top-k, top-percentile, or threshold-based approaches — but all of them seem quite sensitive to the model and prompt.
+- In retrieval-based settings, how would you think about defining a robust decision boundary? 
+- I also thought about using consistency across prompts or runs — for example, if a post is repeatedly flagged across different generated samples.
+d. Since different LLMs seem to produce different types of disinformation, do you think aggregating across models could improve robustness, or would that just introduce more noise?
 
 ## 10.04.26
 -  About the curated dataset:
