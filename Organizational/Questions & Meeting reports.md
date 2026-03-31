@@ -11,6 +11,12 @@ Sub-research questions:
 # General questions
 
 ## Meeting with Max
+- Is the retrieval & rerank idea (retrieve using cosine similarity, rerank using BERTScore) too simplistic? 
+- How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
+- What flagging technique makes sense in such a context? Should i use top-k as an absolute number, or make it threshold based, or top-X% percentile (for instance top-5%)
+- Should i implement a way to say that, if a post was flagged by multiple generated fakes, it is somehow ranked differntly/ heavier?
+- In the experimental design, does it make sense to have OTHER in the dataset as "noise"? And even to potentially flag them? ((although i think i know this answer))
+
 
 ## 10.04.26
 -  About the curated dataset:
@@ -18,7 +24,7 @@ Sub-research questions:
 	- are they from the same social media?
 	- are they related to the same event?
 	- they are labeled. Is it only disinformation / true information? or do you also include "other" categories, like humor or opinion?
-- Ask about the centroid idea. How feasible is i
+- Ask about the centroid idea. How feasible is it to calculate 
 ## 27.03.26
 - Did i formulate the hypothesis test for the statistical test? Go over them
 	- before U test, do something else (forgot the name)

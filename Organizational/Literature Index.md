@@ -42,6 +42,7 @@ WHERE contains(file.tags, "LLMs-as-generators")
 - [[comparing_LLMs_BERT.pdf]] - compare encoder- and decoder-model for identifying fakes
 - [[synthesis-llm-fake-detection.pdf]] - an overview of LLM existing approaches to classify fakes
 - [[dual-role-of-llms.pdf]] - pipeline that generates and then classifies fakes using LLMs
+- ==[[debate-to-detect.pdf]] - Multiagent detection to flag misinformation based on debate 
 
 ```dataview
 LIST
