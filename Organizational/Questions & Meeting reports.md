@@ -11,17 +11,21 @@ Sub-research questions:
 # General questions
 
 ## Meeting with Max
- - How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
-	 - One idea: instead of generating multiple proxies with the same "generic" persona, I could use different personas and see flagging consistency (so if a post had high bertscores with multiple prompts, then evaluate it differently)
-- Is the retrieval & rerank idea (retrieve using cosine similarity, rerank using BERTScore) too simplistic? 
--
-- What flagging technique makes sense in such a context? Should i use top-k as an absolute number, or make it threshold based, or top-X% percentile (for instance top-5%)
-- Replacing Confidence Scores with "Sampling Consistency"
-	- If your pipeline uses LLM-generated confidence scores to decide which posts to flag, the paper offers a significant warning: **verbalized confidence is a poor predictor of accuracy** (r=+0.10).
-	- **Application:** Use **sampling consistency** instead. Run your reranking or flagging prompt **10 times** for a candidate post at a temperature of t=1.
-	- **Metric:** If the LLM consistently flags the post as "false/harmful" across 8/10 runs, you have a much stronger signal (r=+0.61) than if the LLM simply tells you "I am 90% confident" in a single run
-	- Should i implement a way to say that, if a post was flagged by multiple generated fakes, it is somehow ranked differntly/ heavier?
-- In the experimental design, does it make sense to have OTHER in the dataset as "noise"? And even to potentially flag them? ((although i think i know this answer))
+1. Thanks again for taking the time — my supervisor suggested we connect because of overlaps in narrative similarity and my thesis on disinformation detection. I’d love to briefly give you context on what I’m doing, and then mainly learn from your experience and get your perspective.
+2. About my experiments:
+- **Core idea**: Use LLM-generated disinformation as _proxies_ 
+- **Pipeline**: Generate → embed → retrieve → rerank → flag
+3. Questions
+a. Is the retrieval & rerank idea (retrieve using cosine similarity, rerank using BERTScore) too simplistic? In your work, how do you think about the difference between surface-level semantic similarity and deeper narrative similarity?
+- In my pipeline, I retrieve using cosine similarity on embeddings and rerank using BERTScore, but I still see cases where generated misinformation is closer to true posts than false ones. Do you think this is a limitation of the similarity signal itself?
+- Do you think semantic metrics like BERTScore are fundamentally limited for distinguishing misleading narratives, even if they’re very strong at capturing paraphrases?
+- My thesis explicitly focuses on semantic similarity, so I’m not planning to change the scope. But I’m observing that semantic similarity sometimes aligns misleading content with true content, and I’m trying to understand whether this is a limitation of the metric or of the representation level itself.
+b. How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
+	 - One idea: instead of generating multiple proxies with the same "generic" persona, I could use different personas and see flagging consistency (so if a post had high bertscores with multiple prompts, then evaluate it differently?)
+c. One thing I’m struggling with is how to define what ‘flagging’ actually means in this setup.
+	
+- What flagging technique makes sense in such a context? Should i use top-k as an absolute number, or make it threshold based, or top-X% percentile (for instance top-5%)? Or sampling consistency (if a post is flagged as false/harmful across multiple runs
+- Right now I’m considering top-k, top-percentile, or threshold-based approaches — but all of them seem quite sensitive to the model and prompt.”
 
 
 ## 10.04.26
