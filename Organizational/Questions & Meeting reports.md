@@ -11,14 +11,16 @@ Sub-research questions:
 # General questions
 
 ## Meeting with Max
+ - How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
+	 - One idea: instead of generating multiple proxies with the same "generic" persona, I could use different personas and see flagging consistency (so if a post had high bertscores with multiple prompts, then evaluate it differently)
 - Is the retrieval & rerank idea (retrieve using cosine similarity, rerank using BERTScore) too simplistic? 
-- How would diversity play a role in generating samples in my context? Consider one generation consists of a set of prompt (and therefore misinformation style), news article, and language model. 
+-
 - What flagging technique makes sense in such a context? Should i use top-k as an absolute number, or make it threshold based, or top-X% percentile (for instance top-5%)
 - Replacing Confidence Scores with "Sampling Consistency"
 	- If your pipeline uses LLM-generated confidence scores to decide which posts to flag, the paper offers a significant warning: **verbalized confidence is a poor predictor of accuracy** (r=+0.10).
 	- **Application:** Use **sampling consistency** instead. Run your reranking or flagging prompt **10 times** for a candidate post at a temperature of t=1.
 	- **Metric:** If the LLM consistently flags the post as "false/harmful" across 8/10 runs, you have a much stronger signal (r=+0.61) than if the LLM simply tells you "I am 90% confident" in a single run
-- Should i implement a way to say that, if a post was flagged by multiple generated fakes, it is somehow ranked differntly/ heavier?
+	- Should i implement a way to say that, if a post was flagged by multiple generated fakes, it is somehow ranked differntly/ heavier?
 - In the experimental design, does it make sense to have OTHER in the dataset as "noise"? And even to potentially flag them? ((although i think i know this answer))
 
 
