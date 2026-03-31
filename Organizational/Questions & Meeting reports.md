@@ -17,6 +17,7 @@ Sub-research questions:
 - **Pipeline**: Generate → embed → retrieve → rerank → flag
 3. Questions
 a. Is the retrieval & rerank idea (retrieve using cosine similarity, rerank using BERTScore) too simplistic? In your work, how do you think about the difference between surface-level semantic similarity and deeper narrative similarity?
+- Is using LLM-as-a-judge a more robust solution? But what about interpretability?
 - In my pipeline, I retrieve using cosine similarity on embeddings and rerank using BERTScore, but I still see cases where generated misinformation is closer to true posts than false ones. Do you think this is a limitation of the similarity signal itself?
 - Do you think semantic metrics like BERTScore are fundamentally limited for distinguishing misleading narratives, even if they’re very strong at capturing paraphrases?
 - My thesis explicitly focuses on semantic similarity, so I’m not planning to change the scope. But I’m observing that semantic similarity sometimes aligns misleading content with true content, and I’m trying to understand whether this is a limitation of the metric or of the representation level itself.
