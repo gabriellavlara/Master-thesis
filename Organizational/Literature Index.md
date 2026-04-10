@@ -65,7 +65,7 @@ WHERE contains(file.tags, "fact-checking")
 
 ## NLP
 - ==[[text-similarity.pdf]]== - different hierarchy levels for evaluating text similarity
-- ==[[A_Survey_of_Text_Similarity_Approaches.pdf]]== - 
+- ==[[A_Survey_of_Text_Similarity_Approaches.pdf]]== - #TODO
 ## Machine Learning
 - [[sentence-bert.pdf]] - creates semantically meaningful sentence embeddings that can be compared using cosine-similarity --> https://sbert.net/
 - [ ] Write about language and embedding models, what they do. F.e. write about S-BERT and how it works.
