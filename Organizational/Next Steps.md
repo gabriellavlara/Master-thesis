@@ -1,5 +1,6 @@
 # Next Steps (Breadcrumbs)
 
+## 17.04
 
 ## 27.03
 - ==**Scale Data Generation (Priority: High) **== ✅
@@ -11,7 +12,7 @@
 	    - Run pipeline multiple times **OR**
 	    - Generate multiple posts per article
 	- Target: **~100–300 LLM-generated posts per setup**
-- ==**Evaluate Stability of Results**==
+- --> ==**Evaluate Stability of Results**==
 	- Re-run full pipeline with expanded dataset
 	- Compute:
 	    - precision@k (and/or @x%)
@@ -20,7 +21,7 @@
 	    - mean and standard deviation
 	    - check for consistency in trends (e.g., enrichment of HUMAN_FALSE in top tail)
 	- Goal: verify whether observed behavior is **stable or due to randomness**
-- Test other prompt variations:
+- Test other prompt variations: **READ ENTITY FRAMING PAPER**
 	-  **entity framing centered prompt (hero/villain)**
 	- **conspiracy theory**
 	- **propaganda techniques** 
