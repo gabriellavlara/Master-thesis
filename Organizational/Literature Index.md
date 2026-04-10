@@ -62,7 +62,10 @@ WHERE contains(file.tags, "fact-checking")
 - ==[[entity-framing.pdf]] ==- frames entitites as protagonist/antagonist/innocent
 - [[propaganda-detection.pdf]] - 
 - [[Narrative_Similarity.pdf]] - tests different personas (basic vs. specialized) and uses consensus to see which persona-composition decides best
-- ==[[text-similarity.pdf]]== - different hierarchy levels for evaluating text s
+
+## NLP
+- ==[[text-similarity.pdf]]== - different hierarchy levels for evaluating text similarity
+- ==[[A_Survey_of_Text_Similarity_Approaches.pdf]]== - 
 ## Machine Learning
 - [[sentence-bert.pdf]] - creates semantically meaningful sentence embeddings that can be compared using cosine-similarity --> https://sbert.net/
 - [ ] Write about language and embedding models, what they do. F.e. write about S-BERT and how it works.
