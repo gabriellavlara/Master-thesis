@@ -1,7 +1,6 @@
 # Next Steps (Breadcrumbs)
 
-## 17.04
-
+## 
 ## 27.03
 - ==**Scale Data Generation (Priority: High) **== ✅
 	- Select **one fixed experimental setup**:
