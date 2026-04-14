@@ -10,9 +10,19 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 17.04.26
-- Subjectivity analysis: yes or no? Mb in the appendix
-- BERTWeet vs. Roberta-large for 
-- 
+## Main Issues / Open Questions
+**Methodological:**
+- All BERTScore computations currently done on top-100 retrieved candidates — biased by retrieval step. Should unbiased scores (against full/stratified dataset) be reported for RQ1, or is the pipeline-level evaluation sufficient?
+- Flagging threshold for RQ2 still undecided — fixed top-k, top-x% percentile, or BERTScore threshold τ? None feel fully principled. Current plan is to sweep thresholds and report precision-recall curve, but unsure if this is the right approach
+- BERTWeet vs RoBERTa-large for BERTScore: BERTWeet is domain-appropriate but scores are lower; RoBERTa is standard but produces compressed score distributions on this homogeneous corpus. Which should be primary?
+**Results interpretation:**
+- Cross-label BERTScore shows TRUE > FALSE (counterintuitive for RQ1) — likely reflects stylistic proximity between fluent LLM text and formal truthful posts rather than semantic content alignment. Is this a valid interpretation?
+- Retrieval lift shows FALSE enriched ~1.7x and TRUE suppressed to ~0.3x across all models — this is the strongest RQ1 finding but is it sufficient to claim LLM fakes are semantically similar to human disinformation?
+- All 3 LLMs perform very similarly in aggregate scores — differences are within one standard deviation. Is this a meaningful null finding or a limitation of the experimental setup?
+**Scope:**
+- Supervisor previously suggested more diverse prompting strategies (entity framing, propaganda techniques) — given 2 months remaining, is this still expected or can it be moved to future work/limitations?
+- Is a BM25 baseline sufficient or is a more sophisticated baseline needed?
+- Gemini results not yet included — worth adding as 4th model or out of scope?
 ## Meeting with Max
 
 1. Thanks again for taking the time — my supervisor suggested we connect because of overlaps in narrative similarity and my thesis on disinformation detection. I’d love to briefly give you context on what I’m doing, and then mainly learn from your experience and get your perspective.
