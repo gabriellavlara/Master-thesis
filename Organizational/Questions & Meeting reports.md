@@ -9,8 +9,12 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
-
+## 17.04.26
+- Subjectivity analysis: yes or no? Mb in the appendix
+- BERTWeet vs. Roberta-large for 
+- 
 ## Meeting with Max
+
 1. Thanks again for taking the time — my supervisor suggested we connect because of overlaps in narrative similarity and my thesis on disinformation detection. I’d love to briefly give you context on what I’m doing, and then mainly learn from your experience and get your perspective.
 2. About my experiments:
 - **Core idea**: Use LLM-generated disinformation as _proxies_ 
@@ -30,6 +34,9 @@ c. One thing I’m struggling with is how to define what ‘flagging’ actually
 - I also thought about using consistency across prompts or runs — for example, if a post is repeatedly flagged across different generated samples.
 d. Since different LLMs seem to produce different types of disinformation, do you think aggregating across models could improve robustness, or would that just introduce more noise?
 
+### Recommendations from Max:
+- use **Rank-BM25** as a baseline to compare generated fakes with the dataset of human-authored ones (besides ofc random flagging)
+- Test with **BGE-N3**, which is basically an embedding model dense/sparse/multi-vector retrieval 
 ## 10.04.26
 -  About the curated dataset:
 	- i know they are very recent events 

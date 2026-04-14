@@ -1,4 +1,12 @@
+# Narrative
+Labels overlap heavily in semantic space
+    → task is hard, individual scores are label-agnostic
+        → yet retrieval implicitly enriches for FALSE posts
+            → LLM fakes cluster near human disinformation at corpus level
+                → this implicit discrimination motivates RQ2:
+                  can it be operationalized for detection?
 # Quantitative 
+
 1. Testing my pipeline without vs. with **claim-detection** step.
 Basically what this step did was use TextBlob to check the subjectivity of a 
 
