@@ -14,7 +14,7 @@ Sub-research questions:
 **Methodological:**
 - All BERTScore computations currently done on top-100 retrieved candidates — biased by retrieval step. Should unbiased scores (against full/stratified dataset) be reported for RQ1, or is the pipeline-level evaluation sufficient?
 - Flagging threshold for RQ2 still undecided — fixed top-k, top-x% percentile, or BERTScore threshold τ? None feel fully principled. Current plan is to sweep thresholds and report precision-recall curve, but unsure if this is the right approach
-- BERTWeet vs RoBERTa-large for BERTScore: BERTWeet is domain-appropriate but scores are lower; RoBERTa is standard but produces compressed score distributions on this homogeneous corpus. Which should be primary?
+- **BERTWeet vs RoBERTa-large for BERTScore**: BERTWeet is domain-appropriate but scores are lower; RoBERTa is standard but produces compressed score distributions on this homogeneous corpus. Which should be primary?
 **Results interpretation:**
 - Cross-label BERTScore shows TRUE > FALSE (counterintuitive for RQ1) — likely reflects stylistic proximity between fluent LLM text and formal truthful posts rather than semantic content alignment. Is this a valid interpretation?
 - Retrieval lift shows FALSE enriched ~1.7x and TRUE suppressed to ~0.3x across all models — this is the strongest RQ1 finding but is it sufficient to claim LLM fakes are semantically similar to human disinformation?
