@@ -4,11 +4,14 @@
     5.1.1 Overview
           - Summary table (mean cosine + BERTScore per LLM)
           - Boxplot distributions per LLM
-          - UMAP three-panel
+          - UMAP three-panel (for intuition?)
     5.1.2 Cross-Label Analysis  
           - Table: max/q75/mean BERTScore per LLM per label
           - Boxplot per label (cosine + BERTScore)
           - Kruskal-Wallis + Dunn's test 
+	          - H0: BERTScore distributions for FALSE, TRUE and OTHER come from the same population
+	          - H1: at least one group has a different distribution
+	          - if H1, Dunn's test: which specific pairs of groups differ from each other --> focus on FALSE vs. TRUE
           - KEY FINDING: FALSE > TRUE across all models
 
 5.2 RQ2: Disinformation Flagging Performance
@@ -16,14 +19,17 @@
           - Table: base rate → retrieval → reranking
           - Lift barplot
           - Chi-square on flagged distribution
+	          - H0: label distribution among flagged posts matches the random distribution ( considering class imbalance)
+	          - H1: the label distribution deviates from random distribtuion
+	          - basically checks if my pipeline is **biased towards false posts** (hopefully yr)
           - KEY FINDING: FALSE enriched ~1.7x, TRUE suppressed
     5.2.2 Pipeline Performance
-          - Precision@k (top-10% and top-25%)
+          - Precision@k (top-10% and/or top-25%? How to justify? )
           - nDCG per query averaged
-          - Comparison vs BM25 baseline (#TODO)
+          - Comparison vs BM25 baseline (should this be my baseline)
           - Precision-recall tradeoff curve
 
-5.3 Cross-RQ Insights
+5.3 Cross-RQ Insights (???)
     5.3.1 Model Comparison
           - RQ1 scores vs RQ2 precision divergence
           - Open vs closed models finding
