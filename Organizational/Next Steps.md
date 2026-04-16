@@ -1,4 +1,6 @@
 ## Thesis TODO: Prioritized
+
+
 ### Tier 1: Essential (must do)
 - [ ] **Flagging technique**: pick percentile-based top-X% (e.g. top-10% and top-25%), report both, move on
 - [ ] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM)

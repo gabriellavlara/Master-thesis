@@ -1,4 +1,34 @@
 # Narrative
+5. Results
+5.1 RQ1: Semantic Alignment Analysis
+    5.1.1 Overview
+          - Summary table (mean cosine + BERTScore per LLM)
+          - Boxplot distributions per LLM
+          - UMAP three-panel
+    5.1.2 Cross-Label Analysis  
+          - Table: max/q75/mean BERTScore per LLM per label
+          - Boxplot per label (cosine + BERTScore)
+          - Kruskal-Wallis + Dunn's test 
+          - KEY FINDING: FALSE > TRUE across all models
+
+5.2 RQ2: Disinformation Flagging Performance
+    5.2.1 Label Composition Funnel
+          - Table: base rate → retrieval → reranking
+          - Lift barplot
+          - Chi-square on flagged distribution
+          - KEY FINDING: FALSE enriched ~1.7x, TRUE suppressed
+    5.2.2 Pipeline Performance
+          - Precision@k (top-10% and top-25%)
+          - nDCG per query averaged
+          - Comparison vs BM25 baseline (#TODO)
+          - Precision-recall tradeoff curve
+
+5.3 Cross-RQ Insights
+    5.3.1 Model Comparison
+          - RQ1 scores vs RQ2 precision divergence
+          - Open vs closed models finding
+    5.3.2 Qualitative Analysis → appendix reference
+
 Labels overlap heavily in semantic space
     → task is hard, individual scores are label-agnostic
         → yet retrieval implicitly enriches for FALSE posts
