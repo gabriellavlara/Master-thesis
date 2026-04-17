@@ -13,7 +13,9 @@
 	          - H1: at least one group has a different distribution
 	          - if H1, Dunn's test: which specific pairs of groups differ from each other --> focus on FALSE vs. TRUE
           - KEY FINDING: FALSE > TRUE across all models
-
+- subsection for error analysis: differences between valid. and test set; explain differences/errors in dataset --> 
+- curate news for curated dataset. --> use evidence column as base
+- decide how to structure the two results (from both datasets)
 5.2 RQ2: Disinformation Flagging Performance
     5.2.1 Label Composition Funnel
           - Table: base rate → retrieval → reranking
@@ -21,19 +23,20 @@
           - Chi-square on flagged distribution
 	          - H0: label distribution among flagged posts matches the random distribution ( considering class imbalance)
 	          - H1: the label distribution deviates from random distribtuion
-	          - basically checks if my pipeline is **biased towards false posts** (hopefully yr)
+	          - basically checks if my pipeline is **doing what it's supposed to do towards false posts** (hopefully yes?)
           - KEY FINDING: FALSE enriched ~1.7x, TRUE suppressed
     5.2.2 Pipeline Performance
           - Precision@k (top-10% and/or top-25%? How to justify? )
           - nDCG per query averaged
-          - Comparison vs BM25 baseline (should this be my baseline)
+          - Comparison vs **BM25 baseline** (should this be my baseline)
           - Precision-recall tradeoff curve
 
-5.3 Cross-RQ Insights (???)
+5.3 Cross-RQ Insights (???) --> in discussion
     5.3.1 Model Comparison
           - RQ1 scores vs RQ2 precision divergence
           - Open vs closed models finding
     5.3.2 Qualitative Analysis → appendix reference
+    for the best setting, subset 30-50 generations; error labels; repetitions; out of scope
 
 Labels overlap heavily in semantic space
     → task is hard, individual scores are label-agnostic
