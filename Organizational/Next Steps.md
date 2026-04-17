@@ -3,12 +3,14 @@
 
 ### Tier 1: Essential (must do)
 - [ ] **Flagging technique**: pick percentile-based top-X% (e.g. top-10% and top-25%), report both, move on
+- [ ] ==Preprocess text: remove URL from the human posts? Not sure!
 - [ ] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM)
 - [ ] **RQ1 statistical tests**: Kruskal-Wallis + Dunn's post-hoc on BERTScore distributions across labels
 - [ ] **Pipeline lift analysis**: label composition at each stage (original dataset → retrieval → reranking) + chi-square test
 - [ ] **RQ2 results**: precision@k / precision@x% on flagged human posts + nDCG
 - [ ] ==**BM25 baseline**==: implement retrieval lift and precision@k for BM25, compare against your pipeline (supervisor recommended) MUST
 - [ ] **Writing**: results section, discussion section, finish theoretical gaps
+
 
 ### Tier 2: Important but scopeable
 - [ ] **Stability analysis**: std of BERTScore over rep_index per (promptID x articleID) — one table, half a day --> just add this to the results table, no need for a separate section
@@ -18,9 +20,9 @@
 ### Tier 3: Nice-to-have (cut if time is short)
 **BLEURT / MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead --> only if i have time 
 - [ ] **UMAP/PCA visualization**: embedding space plot showing LLM_FALSE near HUMAN_FALSE — only if interpretable and done in half a day --> density kernels; 
-- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> hero/villain framing. 
+- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. 
 ### Ongoing
-- [ ] **Supervisor communication**: explicitly discuss prompting scope tradeoff given timeline — get alignment on what is "enough"
+- [ ] **Supervisor communication**: explicitly discuss prompting scope tradeoff given timeline — get alignment on what is "enough" 
 
 # Next Steps (Breadcrumbs)
 ## 27.03
