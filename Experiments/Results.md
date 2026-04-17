@@ -44,6 +44,7 @@ Labels overlap heavily in semantic space
             → LLM fakes cluster near human disinformation at corpus level
                 → this implicit discrimination motivates RQ2:
                   can it be operationalized for detection?
+## 5.1.1
 # Quantitative 
 
 1. Testing my pipeline without vs. with **claim-detection** step.
