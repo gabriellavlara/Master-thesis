@@ -7,7 +7,7 @@
 - [ ] **RQ1 statistical tests**: Kruskal-Wallis + Dunn's post-hoc on BERTScore distributions across labels
 - [ ] **Pipeline lift analysis**: label composition at each stage (original dataset → retrieval → reranking) + chi-square test
 - [ ] **RQ2 results**: precision@k / precision@x% on flagged human posts + nDCG
-- [ ] **BM25 baseline**: implement retrieval lift and precision@k for BM25, compare against your pipeline (supervisor recommended) MUST
+- [ ] ==**BM25 baseline**==: implement retrieval lift and precision@k for BM25, compare against your pipeline (supervisor recommended) MUST
 - [ ] **Writing**: results section, discussion section, finish theoretical gaps
 
 ### Tier 2: Important but scopeable
