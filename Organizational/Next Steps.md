@@ -18,7 +18,7 @@
 ### Tier 3: Nice-to-have (cut if time is short)
 **BLEURT / MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead --> only if i have time 
 - [ ] **UMAP/PCA visualization**: embedding space plot showing LLM_FALSE near HUMAN_FALSE — only if interpretable and done in half a day --> density kernels; 
-- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section
+- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> hero/villain framing. 
 ### Ongoing
 - [ ] **Supervisor communication**: explicitly discuss prompting scope tradeoff given timeline — get alignment on what is "enough"
 
