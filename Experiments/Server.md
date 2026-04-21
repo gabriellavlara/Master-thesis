@@ -24,3 +24,4 @@ TURBO_USER=gabriella
 - nvidia-smi    # GPU usage
 - who           # logged-in users
 - htop          # CPU/RAM per user
+-  # initalize a working session

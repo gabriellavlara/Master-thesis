@@ -3,7 +3,8 @@
 
 ### Tier 1: Essential (must do)
 - [ ] **Flagging technique**: pick percentile-based top-X% (e.g. top-10% and top-25%), report both, move on
-- [ ] ==Preprocess text: remove URL from the human posts? Not sure!==Cross encoder???==
+- [ ] ==Preprocess text: remove URL from the human posts? Not sure!
+- [ ] ==Cross encoder???==
 - [ ] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM)
 - [ ] ----------🔺 **RQ1 statistical tests**: Kruskal-Wallis + Dunn's post-hoc on BERTScore distributions across labels ------------------
 - [ ] **Pipeline lift analysis**: label composition at each stage (original dataset → retrieval → reranking) + chi-square test
