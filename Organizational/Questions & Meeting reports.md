@@ -10,6 +10,11 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 28.04.25
+1. For my RQ2 flagging pipeline, i evaluate precision@K using a global aggregation strategy. So for each human post, i store the maximum cosine similarity achieved across all 100 LLM-queries, then rank human posts globally based on this score. In this case, precision is computed as the fraction of top-K posts labeled FALSE.
+	An alternative approach would be using a per-query-flagging. So for each generated post, i retrieve the top-K nearest human posts, then compute precision@K and average across queries.
+
+I basically want to answer the following question with that: "Which human posts are MOST semantically similar to machine-generated disinformation?". Is this the right framing for my research question?
+
 1. Colors / labels - any specifics? 
 2. Any specific number of pages per section? Can she send me hers or another student's thesis for me to use as reference?
 3. 
