@@ -9,6 +9,8 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 28.04.25
+1. Colors / labels - any specifics? 
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
