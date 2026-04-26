@@ -19,6 +19,7 @@ I basically want to answer the following question with that: "Which human posts 
 -  Any specific number of pages per section? 
 - Can she send me hers or another student's thesis for me to use as reference?
 - Any specific color coding for the plots?
+- ((I know i have asked it before, but just want to make sure)): about ethical consid
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
