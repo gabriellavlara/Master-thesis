@@ -1,42 +1,25 @@
 # Narrative
 5. Results
-5.1 RQ1: Semantic Alignment Analysis
-    5.1.1 Overview
+    **5.1 Overview**
           - Summary table (mean cosine + BERTScore per LLM)
           - Boxplot distributions per LLM
           - UMAP three-panel (for intuition?)
-    5.1.2 Cross-Label Analysis  
-          - Table: max/q75/mean BERTScore per LLM per label
-          - Boxplot per label (cosine + BERTScore)
-          - Kruskal-Wallis + Dunn's test 
-	          - H0: BERTScore distributions for FALSE, TRUE and OTHER come from the same population
-	          - H1: at least one group has a different distribution
-	          - if H1, Dunn's test: which specific pairs of groups differ from each other --> focus on FALSE vs. TRUE
-          - KEY FINDING: FALSE > TRUE across all models
-- subsection for error analysis: differences between valid. and test set; explain differences/errors in dataset --> 
-- curate news for curated dataset. --> use evidence column as base
-- decide how to structure the two results (from both datasets)
-5.2 RQ2: Disinformation Flagging Performance
-    5.2.1 Label Composition Funnel
-          - Table: base rate → retrieval → reranking
-          - Lift barplot
-          - Chi-square on flagged distribution
-	          - H0: label distribution among flagged posts matches the random distribution ( considering class imbalance)
-	          - H1: the label distribution deviates from random distribtuion
-	          - basically checks if my pipeline is **doing what it's supposed to do towards false posts** (hopefully yes?)
-          - KEY FINDING: FALSE enriched ~1.7x, TRUE suppressed
-    5.2.2 Pipeline Performance
-          - Precision@k (top-10% and/or top-25%? How to justify? )
-          - nDCG per query averaged
-          - Comparison vs **BM25 baseline** (should this be my baseline)
-          - Precision-recall tradeoff curve
+    **5.2 RQ1: Generative Capacities of LLMs**
+	- 5.2.1 Cross-Label Similarity Analysis
+		-Max similarity score distributions by label (6-panel boxplot: cosine + BERTScore × 3 LLMs)
+		-Disinformation alignment plot (MaxSim(FALSE) − MaxSim(TRUE), cosine vs. BERTScore side by side)
+	- Key findings: FALSE > TRUE consistently in cosine; BERTScore weaker/less consistent; OTHER achieves highest MaxSim; cosine more discriminative due to wider score range vs. BERTScore saturation
+	==- 5.2.2 Qualitative Analysis
+		- TBD - but basically, 2 human annotators. ==
 
-5.3 Cross-RQ Insights (???) --> in discussion
-    5.3.1 Model Comparison
-          - RQ1 scores vs RQ2 precision divergence
-          - Open vs closed models finding
-    5.3.2 Qualitative Analysis → appendix reference
-    for the best setting, subset 30-50 generations; error labels; repetitions; out of scope
+	**5.3 RQ2: Disinformation Flagging Performance**
+	- 5.3.1 Retrieval Label composition
+          - Barplot of label composition of top-K retrieved posts per LLM across K values
+    - 5.3.2 Pipeline Performance
+          - Precision@k and ndgc@k table
+          - Precision@k and ndgc@k plot
+	  - 5.3.3 Validation on Curated Dataset
+		  -TBD
 
 Labels overlap heavily in semantic space
     → task is hard, individual scores are label-agnostic

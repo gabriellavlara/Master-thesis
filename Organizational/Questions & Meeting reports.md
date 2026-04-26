@@ -12,6 +12,7 @@ Sub-research questions:
 ## 28.04.25
 1. Colors / labels - any specifics? 
 2. Any specific number of pages per section? Can she send me hers or another student's thesis for me to use as reference?
+3. 
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
