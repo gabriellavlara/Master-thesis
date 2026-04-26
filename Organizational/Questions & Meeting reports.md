@@ -14,12 +14,17 @@ Sub-research questions:
 For my RQ2 flagging pipeline, i evaluate precision@K using a global aggregation strategy. So for each human post, i store the maximum cosine similarity achieved across all 100 LLM-queries, then rank human posts globally based on this score. In this case, precision is computed as the fraction of top-K posts labeled FALSE.
 An alternative approach would be using a per-query-flagging. So for each generated post, i retrieve the top-K nearest human posts, then compute precision@K and average across queries.
 I basically want to answer the following question with that: "Which human posts are MOST semantically similar to machine-generated disinformation?". Is this the right framing for my research question?
+- **How to report RQ2?**
+In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline configurations (Cosine Gemma, Cosine BGE-M3, Cosine+BERTweet, Cosine+RoBERTa, BM25), and some K values (25, 50, 75, 100, 200, 300, 400, 500), with 4 metrics (Precision, Recall, F1, nDCG).
+- _Main results table: Precision@K and nDCG@K at 3-4 representative K values (e.g. K=25, 100, 300, 500), one table per LLM --> or plot as main result, table in appendix with all K values._
+- _Main results plot: Precision@K curves across all K values, one line per pipeline, one subplot per LLM_
+- _Appendix: Recall@K and F1@K for completeness_
 
 - **For the thesis document**
 -  Any specific number of pages per section? 
 - Can she send me hers or another student's thesis for me to use as reference?
 - Any specific color coding for the plots?
-- ((I know i have asked it before, but just want to make sure)): about ethical consid
+- ((I know i have asked it before, but just want to make sure)): about ethical considerations. 
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
