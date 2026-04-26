@@ -9,17 +9,17 @@
 		-Max similarity score distributions by label (6-panel boxplot: cosine + BERTScore × 3 LLMs)
 		-Disinformation alignment plot (MaxSim(FALSE) − MaxSim(TRUE), cosine vs. BERTScore side by side)
 	- Key findings: FALSE > TRUE consistently in cosine; BERTScore weaker/less consistent; OTHER achieves highest MaxSim; cosine more discriminative due to wider score range vs. BERTScore saturation
-	==- 5.2.2 Qualitative Analysis
+	==- **5.2.2 Qualitative Analysis**
 		- TBD - but basically, 2 human annotators. ==
 
 	**5.3 RQ2: Disinformation Flagging Performance**
-	- 5.3.1 Retrieval Label composition
+	- **5.3.1 Retrieval Label composition**
           - Barplot of label composition of top-K retrieved posts per LLM across K values
-    - 5.3.2 Pipeline Performance
+    - **5.3.2 Pipeline Performance**
           - Precision@k and ndgc@k table
           - Precision@k and ndgc@k plot
-	  - 5.3.3 Validation on Curated Dataset
-		  -TBD
+	  **==- 5.3.3 Validation on Curated Dataset**
+		  -TBD==
 
 Labels overlap heavily in semantic space
     → task is hard, individual scores are label-agnostic
