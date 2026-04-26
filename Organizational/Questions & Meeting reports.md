@@ -19,6 +19,7 @@ In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline con
 - _Main results table: Precision@K and nDCG@K at 3-4 representative K values (e.g. K=25, 100, 300, 500), one table per LLM --> or plot as main result, table in appendix with all K values._
 - _Main results plot: Precision@K curves across all K values, one line per pipeline, one subplot per LLM_
 - _Appendix: Recall@K and F1@K for completeness_
+- **Should I show all "pipelines" i tested at all?** So should i report the results i got from experimenting with retrieval+reranker BERTweet and RoBERTa-la
 
 - **For the thesis document**
 -  Any specific number of pages per section? 
