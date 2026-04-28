@@ -19,10 +19,13 @@ In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline con
 - _Main results table: Precision@K and nDCG@K at 3-4 representative K values (e.g. K=25, 100, 300, 500), one table per LLM --> or plot as main result, table in appendix with all K values._
 - _Main results plot: Precision@K curves across all K values, one line per pipeline, one subplot per LLM_
 - _Appendix: Recall@K and F1@K for completeness_
-- **Should I show all "pipelines" i tested at all?** So should i report the results i got from experimenting with retrieval+reranker BERTweet and RoBERTa-la
+- **Should I show all "pipelines" i tested at all?** So should i report the results i got from experimenting with retrieval+reranker BERTweet and RoBERTa-large?
 
+- **Validation dataset
+1. **Low volume per thematic cluster** Even your strongest candidate clusters (Israel/Palestine, US government shutdown) yield only 10–13 posts each, with unbalanced label distributions within those clusters. This gives you very low statistical power for any retrieval or ranking metric you report.
+2. 
 - **For the thesis document**
--  Any specific number of pages per section? 
+-Any specific number of pages per section? 
 - Can she send me hers or another student's thesis for me to use as reference?
 - Any specific color coding for the plots?
 - ((I know i have asked it before, but just want to make sure)): about ethical considerations. 
