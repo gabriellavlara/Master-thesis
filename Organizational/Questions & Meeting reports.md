@@ -23,7 +23,7 @@ In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline con
 - _Appendix: Recall@K and F1@K for completeness_
 - **Should I show all "pipelines" i tested at all?** So should i report the results i got from experimenting with retrieval+reranker BERTweet and RoBERTa-large?
 - **Do i need to write context about the datesets i have?**
-
+So do i need to briefly mention the Monkeypox Dataset, or it it enough to link the Kaggle Dataset. 
 - **Validation dataset
 1. **Low volume per thematic cluster** Even your strongest candidate clusters (Israel/Palestine, US government shutdown) yield only 10–13 posts each, with unbalanced label distributions within those clusters. This gives you very low statistical power for any retrieval or ranking metric you report.
 2. 
