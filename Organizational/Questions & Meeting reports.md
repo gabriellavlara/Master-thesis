@@ -43,7 +43,7 @@ At least 3 topics per language.
 - Any specific color coding for the plots? --> conventional to use inclusive color coding (for blind people)
 - ((I know i have asked it before, but just want to make sure)): about ethical considerations. 
 it's fine. i can say that i still can make it available (upon request access)
-a couple of examples. also some examples for dataset 
+a couple of examples. also some examples for dataset. couple of examples from 
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
