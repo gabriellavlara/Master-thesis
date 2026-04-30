@@ -10,8 +10,6 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 28.04.25
-- **Designing the validation experiment**
-TBD
 - **Global or per query flagging?**
 For my RQ2 flagging pipeline, i evaluate precision@K using a global aggregation strategy. So for each human post, i store the maximum cosine similarity achieved across all 100 LLM-queries, then rank human posts globally based on this score. In this case, precision is computed as the fraction of top-K posts labeled FALSE.
 An alternative approach would be using a per-query-flagging. So for each generated post, i retrieve the top-K nearest human posts, then compute precision@K and average across queries.
@@ -22,11 +20,11 @@ In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline con
 - _Main results plot: Precision@K curves across all K values, one line per pipeline, one subplot per LLM_
 - _Appendix: Recall@K and F1@K for completeness_
 - **Should I show all "pipelines" i tested at all?** So should i report the results i got from experimenting with retrieval+reranker BERTweet and RoBERTa-large?
-- **Do i need to write context about the datesets i have?**
-So do i need to briefly mention the Monkeypox Dataset, or it it enough to link the Kaggle Dataset. 
+- **Do i need to write context about the datasets i have?**
+So do i need to briefly mention the Monkeypox Dataset, or it it enough to link the Kaggle Dataset? 
 - **Validation dataset
 1. **Low volume per thematic cluster** Even your strongest candidate clusters (Israel/Palestine, US government shutdown) yield only 10–13 posts each, with unbalanced label distributions within those clusters. This gives you very low statistical power for any retrieval or ranking metric you report.
-2. 
+One approach i thought of doing: i choose one thematic cluster (for instance israel). Then retrieve up til top-5.
 - **For the thesis document**
 -Any specific number of pages per section? 
 - Can she send me hers or another student's thesis for me to use as reference?

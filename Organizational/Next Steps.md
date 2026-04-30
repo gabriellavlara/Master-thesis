@@ -4,9 +4,7 @@
 ### Tier 1: Essential (must do)
 - [x] **Flagging technique**: pick percentile-based top-X% (e.g. top-10% and top-25%), report both, move on ✅ ✅ 2026-04-24
 - [ ] ==Preprocess text: remove URL from the human posts? Not sure!
-- [ ] ==Cross encoder???==
-- [ ] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM)
-- [ ] ----------🔺 **RQ1 statistical tests**: Kruskal-Wallis + Dunn's post-hoc on BERTScore distributions across labels ------------------
+- [x] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM) ✅ 2026-04-30
 - [ ] **Pipeline lift analysis**: label composition at each stage (original dataset → retrieval → reranking) + chi-square test
 - [ ] **RQ2 results**: precision@k / precision@x% on flagged human posts + nDCG
 - [x] ==**BM25 baseline**==: implement retrieval lift and precision@k for BM25, compare against your pipeline (supervisor recommended) ✅ ✅ 2026-04-24
