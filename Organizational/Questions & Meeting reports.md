@@ -15,6 +15,13 @@ For my RQ2 flagging pipeline, i evaluate precision@K using a global aggregation 
 An alternative approach would be using a per-query-flagging. So for each generated post, i retrieve the top-K nearest human posts, then compute precision@K and average across queries.
 I basically want to answer the following question with that: "Which human posts are MOST semantically similar to machine-generated disinformation?". Is this the right framing for my research question?
 - **How to report RQ2?**
+Table in appendix. 
+in main part: show best results for each system. 
+Just show the best performing case for each K. 
+best performing K.
+
+dont throw it away. Just reports.
+
 In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline configurations (Cosine Gemma, Cosine BGE-M3, Cosine+BERTweet, Cosine+RoBERTa, BM25), and some K values (25, 50, 75, 100, 200, 300, 400, 500), with 4 metrics (Precision, Recall, F1, nDCG).
 - _Main results table: Precision@K and nDCG@K at 3-4 representative K values (e.g. K=25, 100, 300, 500), one table per LLM --> or plot as main result, table in appendix with all K values._
 - _Main results plot: Precision@K curves across all K values, one line per pipeline, one subplot per LLM_
@@ -25,11 +32,18 @@ So do i need to briefly mention the Monkeypox Dataset, or it it enough to link t
 - **Validation dataset
 1. **Low volume per thematic cluster** Even your strongest candidate clusters (Israel/Palestine, US government shutdown) yield only 10–13 posts each, with unbalanced label distributions within those clusters. This gives you very low statistical power for any retrieval or ranking metric you report.
 One approach i thought of doing: i choose one thematic cluster (for instance israel). Then retrieve up til top-5.
+**raw_content and label**
+For each post, extract a topic. Find a couple of articles on that topic. 
+((at least 100 for evaluation))
+
+At least 3 topics per language. 
 - **For the thesis document**
--Any specific number of pages per section? 
-- Can she send me hers or another student's thesis for me to use as reference?
-- Any specific color coding for the plots?
+-Any specific number of pages per section? --> no exact number. Normal distribution (45-100 pages). 70 is frequent. 
+- Can she send me hers or another student's thesis for me to use as reference? --> done
+- Any specific color coding for the plots? --> conventional to use inclusive color coding (for blind people)
 - ((I know i have asked it before, but just want to make sure)): about ethical considerations. 
+it's fine. i can say that i still can make it available (upon request access)
+a couple of examples. also some examples for dataset 
 ## 17.04.26
 ## Main Issues / Open Questions
 **Methodological:**
