@@ -20,7 +20,7 @@ in main part: show best results for each system.
 Just show the best performing case for each K. 
 best performing K.
 
-dont throw it away. Just reports.
+**dont throw it away. Just report. It is a thesis not a paper.**
 
 In my RQ2 evaluation I have results across multiple axes: 3 LLMs, 5 pipeline configurations (Cosine Gemma, Cosine BGE-M3, Cosine+BERTweet, Cosine+RoBERTa, BM25), and some K values (25, 50, 75, 100, 200, 300, 400, 500), with 4 metrics (Precision, Recall, F1, nDCG).
 - _Main results table: Precision@K and nDCG@K at 3-4 representative K values (e.g. K=25, 100, 300, 500), one table per LLM --> or plot as main result, table in appendix with all K values._
