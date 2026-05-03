@@ -10,7 +10,7 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 08.05.26
-- Should i just run the validation dataset with Deepseek? Think so right, since it is the best performing setup -> and basically the only one that consistently generates disinformation taht "sounds" like hunan authored misinfo. 
+- Should i just run the validation dataset with Deepseek? Think so right, since it is the best performing setup -> and basically the only one that consistently generates disinformation that "sounds" like hunan authored misinfo. 
 - I tested three embedders: Gemma, BGE-M3, and BERTweet. BERTweet consistently achieves higher Precision@K across all LLMs and K values. However, its advantage comes not just from semantic similarity, but also from its tweet-native pretraining — it likely captures stylistic features of disinformation (assertive tone, sensational language) that general-purpose models like Gemma miss.
 My question is: should I present BERTweet as the primary embedder given its higher performance, or should I use Gemma/BGE-M3 as primary on the grounds that their retrieval is more purely semantic — and therefore more directly tied to my thesis claim about semantic similarity as a proxy for disinformation detection? BERTweet would then be discussed as a secondary finding highlighting the value of domain-specific embedders.
 
