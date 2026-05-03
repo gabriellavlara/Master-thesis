@@ -9,7 +9,12 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
-## 28.04.25
+## 08.05.26
+- Should i just run the validation dataset with Deepseek? Think so right, since it is the best performing setup -> and basically the only one that consistently generates disinformation taht "sounds" like hunan authored misinfo. 
+- I tested three embedders: Gemma, BGE-M3, and BERTweet. BERTweet consistently achieves higher Precision@K across all LLMs and K values. However, its advantage comes not just from semantic similarity, but also from its tweet-native pretraining — it likely captures stylistic features of disinformation (assertive tone, sensational language) that general-purpose models like Gemma miss.
+My question is: should I present BERTweet as the primary embedder given its higher performance, or should I use Gemma/BGE-M3 as primary on the grounds that their retrieval is more purely semantic — and therefore more directly tied to my thesis claim about semantic similarity as a proxy for disinformation detection? BERTweet would then be discussed as a secondary finding highlighting the value of domain-specific embedders.
+
+## 28.04.26
 - **Global or per query flagging?**
 For my RQ2 flagging pipeline, i evaluate precision@K using a global aggregation strategy. So for each human post, i store the maximum cosine similarity achieved across all 100 LLM-queries, then rank human posts globally based on this score. In this case, precision is computed as the fraction of top-K posts labeled FALSE.
 An alternative approach would be using a per-query-flagging. So for each generated post, i retrieve the top-K nearest human posts, then compute precision@K and average across queries.
