@@ -8,7 +8,8 @@
 
 
 ### Tier 2: 
-- [ ]   Preprocess text: remove URL from the human posts? Not sure
+- [ ]  Preprocess text: remove URL from the human posts? Not sure
+- [ ] Statistical test for RQ2 --> Chi-square? 
 - [ ] Draw visual diagram of the pipeline
 - [ ] Clean code and organize github repo
 
