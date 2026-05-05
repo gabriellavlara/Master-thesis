@@ -6,7 +6,6 @@
 - [ ] **Run qualitative analysis for RQ1
 - [ ] **Writing**: results section, discussion section
 
-
 ### Tier 2: 
 - [ ]  Preprocess text: remove URL from the human posts? Not sure
 - [ ] Statistical test for RQ2 --> Chi-square? 
