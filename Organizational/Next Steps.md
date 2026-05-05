@@ -4,7 +4,6 @@
 ### Tier 1: Essential (must do)
 - [ ] ==**Run retrieval pipeline with validation dataset**==
 - [ ] **Run qualitative analysis for RQ1
-
 - [ ] **Writing**: results section, discussion section
 
 
@@ -13,7 +12,7 @@
 - [ ] Draw visual diagram of the pipeline
 - [ ] Clean code and organize github repo
 
-### Tier 3: Nice-to-have (cut if time is short)
+### Tier 3: Mention in future work!
 - [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. MENTION THIS IN THE FUTURE WORK. 
 - [ ] **BLEURT/MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead -->
 
