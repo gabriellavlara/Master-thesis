@@ -1,16 +1,16 @@
 ## Thesis TODO: Prioritized
 
 
-### Tier 1: Essential (must do)
+### Tier 1: Essential (must do asap)
 - [ ] ==**Run retrieval pipeline with validation dataset**==
 - [ ] **Run qualitative analysis for RQ1
 - [ ] **Writing**: results section, discussion section
-
-### Tier 2: 
+### Tier 2: do them in-between
 - [ ]  Preprocess text: remove URL from the human posts? Not sure
 - [ ] Statistical test for RQ2 --> Chi-square? 
 - [ ] Draw visual diagram of the pipeline
 - [ ] Clean code and organize github repo
+- [ ] Review text
 
 ### Tier 3: Mention in future work!
 - [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. MENTION THIS IN THE FUTURE WORK. 
