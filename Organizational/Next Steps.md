@@ -2,25 +2,18 @@
 
 
 ### Tier 1: Essential (must do)
-- [x] **Flagging technique**: pick percentile-based top-X% (e.g. top-10% and top-25%), report both, move on ✅ ✅ 2026-04-24
-- [ ] ==Preprocess text: remove URL from the human posts? Not sure!
-- [x] **RQ1 results**: cross-group similarity comparison (BERTScore boxplots per label, per LLM) ✅ 2026-04-30
-- [ ] **RQ2 results**: precision@k / precision@x% on flagged human posts + nDCG
-- [x] ==**BM25 baseline**==: implement retrieval lift and precision@k for BM25, compare against your pipeline (supervisor recommended) ✅ ✅ 2026-04-24
-- [ ] **Writing**: results section, discussion section, finish theoretical gaps
+- [ ] ==**Run retrieval pipeline with validation dataset**==
+- [ ] **Run qualitative analysis for RQ1
+- [ ] **Writing**: results section, discussion section
 
 
 ### Tier 2: Important but scopeable
-- [ ] **Stability analysis**: std of BERTScore over rep_index per (promptID x articleID) — one table, half a day --> just add this to the results table, no need for a separate section
-- [ ] **Roberta-large BERTScore**: run as robustness check alongside BERTWeet, confirm relative rankings hold --> just take roberta (**xlmr** --> modern roberta model. (check))
-- [ ] **Subjectivity Analysis**: show some examples of pairs of LLM generated instances vs. human generated text and their respective scores.
+- [ ]   Preprocess text: remove URL from the human posts? Not sure
+- [ ] 
 
 ### Tier 3: Nice-to-have (cut if time is short)
 **BLEURT / MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead --> only if i have time 
-- [ ] **UMAP/PCA visualization**: embedding space plot showing LLM_FALSE near HUMAN_FALSE — only if interpretable and done in half a day --> density kernels; 
-- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. 
-### Ongoing
-- [ ] **Supervisor communication**: explicitly discuss prompting scope tradeoff given timeline — get alignment on what is "enough" 
+- [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. MENTION THIS IN THE FUTURE WORK. 
 
 # Next Steps (Breadcrumbs)
 ## 27.03
