@@ -5,9 +5,10 @@
 - [x] ==**Run retrieval pipeline with validation dataset**== ✅ 2026-05-17
 - [x] **Run qualitative analysis for RQ1 ✅ 2026-05-17
 - [ ] Retrieve highest scored pairs for each LLM x label
+((Start by recomputing agg/results dfs for each setup with dataset_nr == 
 - [ ] **Writing**: results section, discussion section
 ### Tier 2: do them in-between
-- [ ]  Preprocess text: remove URL from the human posts? Not sure
+- [x] Preprocess text: remove URL from the human posts? Not sure ✅ 2026-05-17
 - [ ] Statistical test for RQ2 --> Chi-square? 
 - [ ] Draw visual diagram of the pipeline
 https://excalidraw.com/?utm_source=chatgpt.com#json=w4ZDvKcaouNl4OYF30YNy,O7IJ5IlHvCnmxrbaKhLXeA
