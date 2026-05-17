@@ -9,12 +9,15 @@
 - [ ]  Preprocess text: remove URL from the human posts? Not sure
 - [ ] Statistical test for RQ2 --> Chi-square? 
 - [ ] Draw visual diagram of the pipeline
+https://excalidraw.com/?utm_source=chatgpt.com#json=w4ZDvKcaouNl4OYF30YNy,O7IJ5IlHvCnmxrbaKhLXeA
+https://excalidraw.com/#room=bc87225f1ee57d4f2381,iqV9QsfYgzTMVokbFWdBtA
 - [ ] Clean code and organize github repo
 - [ ] Review text
 
 ### Tier 3: Mention in future work!
 - [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. MENTION THIS IN THE FUTURE WORK. 
 - [ ] **BLEURT/MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead -->
+- [ ] Time complexity analysis! 
 
 # Next Steps (Breadcrumbs)
 ## 27.03
