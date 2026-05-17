@@ -2,8 +2,9 @@
 
 
 ### Tier 1: Essential (must do asap)
-- [ ] ==**Run retrieval pipeline with validation dataset**==
-- [ ] **Run qualitative analysis for RQ1
+- [x] ==**Run retrieval pipeline with validation dataset**== ✅ 2026-05-17
+- [x] **Run qualitative analysis for RQ1 ✅ 2026-05-17
+- [ ] Retrieve highest scored pairs for each LLM x label
 - [ ] **Writing**: results section, discussion section
 ### Tier 2: do them in-between
 - [ ]  Preprocess text: remove URL from the human posts? Not sure
