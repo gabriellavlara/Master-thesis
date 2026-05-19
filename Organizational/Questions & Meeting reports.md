@@ -9,6 +9,9 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 22.05.26
+1. Do i need to submit the GitHub page on the submission date? 
+2. Check info from generalization dataset from LateX file
 ## 08.05.26
 - About the generalization set:
 1. Why does single_annotated_final have 150 entries, but for_llm_experiments has 250? Also why are not all values from the individual annotations in the single_annotated_final? For instance the posts with "janitor"
