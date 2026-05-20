@@ -11,7 +11,9 @@ Sub-research questions:
 # General questions
 ## 22.05.26
 1. Do i need to submit the GitHub page on the submission date? 
-2. Check info from generalization dataset from LateX file
+2. Check info from generalization dataset from LaTeX file
+3. Should i show high similarity pairs for the exploratory/generalization set? 
+I personally feel like they strengthen my argument. It's also sometimes hard to evaluate "quality" of retrieved information, so i think it is meaningful to show them. The question is: is that something i only show in appendix, or should i incorporate in results?
 ## 08.05.26
 - About the generalization set:
 1. Why does single_annotated_final have 150 entries, but for_llm_experiments has 250? Also why are not all values from the individual annotations in the single_annotated_final? For instance the posts with "janitor"
