@@ -10,14 +10,14 @@ Sub-research questions:
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
 ## 22.05.26
-1. Do i need to submit the GitHub page on the submission date? 
-2. Check info from generalization dataset from LaTeX file
-3. Should i show high similarity pairs for the exploratory/generalization set? 
+1. Do i need to submit the GitHub page on the submission date? ✅
+2. Check info from generalization dataset from LaTeX file ✅
+3. Should i show high similarity pairs for the exploratory/generalization set? ✅
 I personally feel like they strengthen my argument. It's also sometimes hard to evaluate "quality" of retrieved information, so i think it is meaningful to show them. The question is: is that something i only show in appendix, or should i incorporate in results?
 
 What pairs does it make sense for me to show? Can i make claims like "deeper inspection of high similarity pairs showed that [...]". Should i show some pairs? Should i only have them in the appendix or main section as well? 
 
-**Send email to presentation!!!!**
+**Send email to presentation!!!! **✅
 Write Dorothea an email when i want to present. 
 ## 08.05.26
 - About the generalization set:
