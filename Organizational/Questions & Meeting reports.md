@@ -9,6 +9,8 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
+## 29.05.26
+1- Can i show new evidence (for instance UMAP) in the discussion?
 ## 22.05.26
 1. Do i need to submit the GitHub page on the submission date? ✅
 2. Check info from generalization dataset from LaTeX file ✅
