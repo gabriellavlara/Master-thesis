@@ -17,7 +17,8 @@ Discuss my generalization set results.
 - general-purpose embedding models (Gemma, BGE-M3) essentially capture the same thing: overall/entity overlap
 - platform specific fine-tuned model (BERTweet) captures mostly tone/narrative alignment
 This interestingly can be seen in the UMAPs. 
-HOWEVER i dont know how to "quantitatively" prove that...
+HOWEVER i dont know how to "quantitatively" prove that... 
+4- Any comments on layout?
 
 ## 22.05.26
 1. Do i need to submit the GitHub page on the submission date? ✅
