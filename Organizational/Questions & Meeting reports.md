@@ -12,7 +12,13 @@ Sub-research questions:
 ## 29.05.26
 1- Can i show new evidence (for instance UMAP) in the discussion?
 2- For the generalization dataset: i get way worse performance. I know why that happens (cross-platform dataset with few instances per topical cluster), I can "show" it through the UMAP. Should i put that in results? Should i analyze deeper why different embedding models have different performance?
-Discuss my generalization set resu
+Discuss my generalization set results. 
+3- I have some insights as to what each retrieval system captures. I have that by analysing the top retrieved instances per dataset per model. 
+- general-purpose embedding models (Gemma, BGE-M3) essentially capture the same thing: overall/entity overlap
+- platform specific fine-tuned model (BERTweet) captures mostly tone/narrative alignment
+This interestingly can be seen in the UMAPs. 
+HOWEVER i dont know how to "quantitatively" prove that...
+
 ## 22.05.26
 1. Do i need to submit the GitHub page on the submission date? ✅
 2. Check info from generalization dataset from LaTeX file ✅
