@@ -9,8 +9,14 @@ Sub-research questions:
 
 **My assumption / hypothesis:  LLM-generated fake social media posts are an effective proxy for the patterns found in human-written fake social media posts** 
 # General questions
-## 29.05.26
-1- Can i show new evidence (for instance UMAP) in the discussion?
+
+## 05.06.26
+1- Should i rephrase RQ2 with the wording "synthetic fakes"?
+2- Should i explain the PCA + quick qualitative evaluation using LLM-as-a-judge in the methodology, or can i jsut briefly mention it in the results (since i had the idea later and use it as a DIAGNOSIS tool, not a main contribution.) --> in results
+3- Any comments on layout of plots? Are they too big/small? Should fontsize be bigger? 
+4- **AI Disclaimer**. Am i doing it correctly? 
+## 05.06.26
+1- Can i show new evidence (for instance UMAP) in the discussion? A: NO
 2- For the generalization dataset: i get way worse performance. I know why that happens (cross-platform dataset with few instances per topical cluster), I can "show" it through the UMAP. Should i put that in results? Should i analyze deeper why different embedding models have different performance?
 Discuss my generalization set results. 
 3- I have some insights as to what each retrieval system captures. I have that by analysing the top retrieved instances per dataset per model. 
@@ -18,7 +24,8 @@ Discuss my generalization set results.
 - platform specific fine-tuned model (BERTweet) captures mostly tone/narrative alignment
 This interestingly can be seen in the UMAPs. 
 HOWEVER i dont know how to "quantitatively" prove that... 
-4- Any comments on layout?
+
+
 
 ## 22.05.26
 1. Do i need to submit the GitHub page on the submission date? ✅
