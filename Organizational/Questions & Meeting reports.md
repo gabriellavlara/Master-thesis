@@ -15,6 +15,9 @@ Sub-research questions:
 2- Should i explain the PCA + quick qualitative evaluation using LLM-as-a-judge in the methodology, or can i jsut briefly mention it in the results (since i had the idea later and use it as a DIAGNOSIS tool, not a main contribution.) --> in results
 3- Any comments on layout of plots? Are they too big/small? Should fontsize be bigger? 
 4- **AI Disclaimer**. Am i doing it correctly? 
+5- Should i put implementation details on 
+6- Color palette!!! Okabe-ito is super limited, so i'll need to repeat colors. Or can i change it? 
+7- Show examples in the limitation? Or just in the appendix?
 ## 05.06.26
 1- Can i show new evidence (for instance UMAP) in the discussion? A: NO
 2- For the generalization dataset: i get way worse performance. I know why that happens (cross-platform dataset with few instances per topical cluster), I can "show" it through the UMAP. Should i put that in results? Should i analyze deeper why different embedding models have different performance?
