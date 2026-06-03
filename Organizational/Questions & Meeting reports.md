@@ -20,7 +20,8 @@ Sub-research questions:
 7- Show examples in the limitation? Or just in the appendix?
 8- Limitation inside the discussion: is that ok? i like it that way. Also, in the limitation i am supposed to critically reflect on my framework, right? So i can say what "went wrong" or what could have done better.  
 9- Should i take out these AI-connector sentences? 
-10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that 
+10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that okay?
+11- About git: should i just have a "clean" version of my pipeline? Or should i also have all datasets and prompting techniques etc. things i used for my actual 
 
 ## 05.06.26
 1- Can i show new evidence (for instance UMAP) in the discussion? A: NO
