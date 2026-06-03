@@ -17,7 +17,7 @@ Sub-research questions:
 4- **AI Disclaimer**. Am i doing it correctly? 
 5- Should i put implementation details on the methodology or appendix?
 6- Color palette!!! Okabe-ito is super limited, so i'll need to repeat colors. Or can i change it? 
-7- Show examples in the limitation? Or just in the appendix?
+7- Show examples in the limitation? Or just in the appendix? Also, mention all examples i used i try to refrain from having too political or strong opinions (for instance i do not put any examples of homophobic or racist generations, but they happened. I just dont want my thesis to contain these instances.)
 8- Limitation inside the discussion: is that ok? i like it that way. Also, in the limitation i am supposed to critically reflect on my framework, right? So i can say what "went wrong" or what could have done better.  
 9- Should i take out these AI-connector sentences? 
 10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that okay?
