@@ -4,18 +4,17 @@
 ### Tier 1: Essential (must do asap)
 - [x] ==**Run retrieval pipeline with validation dataset**== ✅ 2026-05-17
 - [x] **Run qualitative analysis for RQ1 ✅ 2026-05-17
-- [ ] Retrieve highest scored pairs for each LLM x label
+- [x] Retrieve highest scored pairs for each LLM x label ✅ 2026-06-05
 ((Start by recomputing agg/results dfs for each setup with dataset_nr == 2))
-- [ ] **Writing**: results section, discussion section
+- [x] **Writing**: results section, discussion section ✅ 2026-06-05
 ### Tier 2: do them in-between
 - [x] Preprocess text: remove URL from the human posts? Not sure ✅ 2026-05-17
-- [ ] Statistical test for RQ2 --> Chi-square? 
 - [ ] Draw visual diagram of the pipeline
 https://excalidraw.com/?utm_source=chatgpt.com#json=w4ZDvKcaouNl4OYF30YNy,O7IJ5IlHvCnmxrbaKhLXeA
 https://excalidraw.com/#room=bc87225f1ee57d4f2381,iqV9QsfYgzTMVokbFWdBtA
 - [ ] Clean code and organize github repo
 - [ ] Review text
-
+g
 ### Tier 3: Mention in future work!
 - [ ] **More prompting techniques**: entity framing, political bias prompts — rerunning everything is weeks of work; frame current 4 prompts as proof-of-concept and move remaining strategies to limitations/future work section --> ==hero/villain framing==. MENTION THIS IN THE FUTURE WORK. 
 - [ ] **BLEURT/MoverScore**: additional similarity metrics — adds complexity without changing core findings, acknowledge as future work instead -->

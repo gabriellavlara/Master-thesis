@@ -12,7 +12,6 @@ Sub-research questions:
 
 ## 05.06.26
 1- Should i rephrase RQ2 with the wording "synthetic fakes"?
-2- Should i explain the PCA + quick qualitative evaluation using LLM-as-a-judge in the methodology, or can i jsut briefly mention it in the results (since i had the idea later and use it as a DIAGNOSIS tool, not a main contribution.) --> in results
 3- Any comments on layout of plots? Are they too big/small? Should fontsize be bigger? 
 4- **AI Disclaimer**. Am i doing it correctly? 
 5- Should i put implementation details on the methodology or appendix?
@@ -22,6 +21,7 @@ Sub-research questions:
 9- Should i take out these AI-connector sentences? 
 10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that okay?
 11- About git: should i just have a "clean" version of my pipeline? Or should i also have all datasets and prompting techniques etc. things i used for my actual experiments? 
+12- Is there a template for the slides/presentation of the thesis? can i use my own minimalistic design? 
 
 ## 05.06.26
 1- Can i show new evidence (for instance UMAP) in the discussion? A: NO

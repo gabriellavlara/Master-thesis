@@ -23,7 +23,6 @@ LIST
 FROM "Literature/Notes"
 WHERE contains(file.tags, "datasets")
 ```
-
 ## LLMs as generators
 - [[gpt_disinforms.pdf]] - dataset of GPT3 produced synthetic posts and the comparison between synthetic vs. organic fakes vs. truths
 - [[generate-first-then-sample.pdf]] - generate LLM fakes + reinforcement learning to set optimal real-to-fake news ratio -> improve classification of fakes
