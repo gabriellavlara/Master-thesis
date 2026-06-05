@@ -29,7 +29,8 @@ Add approximate budget
 Reproducible for teh thesis results.Throw cleaner notebooks in a subfolder. 
 
 12- Is there a template for the slides/presentation of the thesis? can i use my own minimalistic design? 
-15min presentation + 5min questions --> ask Dorothea agai
+15min presentation + 5min questions --> ask Dorothea again. 
+Big figures! Coherent story! Not too text heavy, try to illustrate more. Focus on RQ!
 
 13- List of abbreviations: do i need to use all abreviations with the \gls? or can i just link it the first time and then not again. Also, do i need to list all abbreviations there, or the ones that i only use once are not needed?
 
