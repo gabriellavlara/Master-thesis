@@ -20,8 +20,9 @@ Sub-research questions:
 8- Limitation inside the discussion: is that ok? i like it that way. Also, in the limitation i am supposed to critically reflect on my framework, right? So i can say what "went wrong" or what could have done better.  
 9- Should i take out these AI-connector sentences? 
 10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that okay?
-11- What is the purpose of the git repo: is it to reproduce the experiments, or About git: should i just have a "clean" version of my pipeline? Or should i also have all datasets and prompting techniques etc. things i used for my actual experiments? 
+11- What is the purpose of the git repo: is it to reproduce the experiments, or  should i just have a "clean" version of my pipeline? Or should i also have all datasets and prompting techniques etc. things i used for my actual experiments? 
 12- Is there a template for the slides/presentation of the thesis? can i use my own minimalistic design? 
+13- List of abbreviations: do i need to use all abreviations with the \gls? or can i just link it the first time and then not again. Also, do i need to list all abbreviations there, or the ones that i only use once are not needed?
 
 
 ## 05.06.26
