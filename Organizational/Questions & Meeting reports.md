@@ -22,10 +22,10 @@ Add approximate budget
 9- Should i take out these AI-connector sentences? 
 10- I decided to just cut out completely my experiments with retrieve + rerank, bc i would have to produce everything (tables + plots etc) and that takes time. I preferred to focus on what i have and make the narrative tight. Is that okay?
 11- What is the purpose of the git repo: is it to reproduce the experiments, or  should i just have a "clean" version of my pipeline? Or should i also have all datasets and prompting techniques etc. things i used for my actual experiments? 
-Reproducible for teh thesis results.Throw cleaner notebooks in a subfolder. 
+**Reproducible for teh thesis results.Throw cleaner notebooks in a subfolder.** 
 12- Is there a template for the slides/presentation of the thesis? can i use my own minimalistic design? 
 15min presentation + 5min questions --> ask Dorothea again. 
-Big figures! Coherent story! Not too text heavy, try to illustrate more. Focus on RQ!
+**Big figures! Coherent story! Not too text heavy, try to illustrate more. Focus on RQ!**
 
 13- List of abbreviations: do i need to use all abreviations with the \gls? or can i just link it the first time and then not again. Also, do i need to list all abbreviations there, or the ones that i only use once are not needed?
 
