@@ -2,7 +2,7 @@
 ONLY REMAINING TO-DOs:
 - write abstract
 - organize github repo
-- do slides for the presen
+- do slides for the presentation
 
 ### Tier 1: Essential (must do asap)
 - [x] ==**Run retrieval pipeline with validation dataset**== ✅ 2026-05-17
